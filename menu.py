@@ -1,12 +1,7 @@
-from tabulate import tabulate
 import sys
 
-from modules.corefiles import clear_screen, load_products_file
+from modules.corefiles import clear_screen, load_products_file, menus_layout
 
-# Este es el layout de los menús, imprime el titulo y el menu
-def menus_layout(title:str,menu:list):
-  print(title)
-  print(tabulate(menu, tablefmt="grid"))
 
 def main_menu():
   clear_screen()
