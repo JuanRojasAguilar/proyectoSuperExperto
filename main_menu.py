@@ -1,14 +1,13 @@
 import sys
 
-from modules.corefiles import clear_screen, load_products_file, menus_layout
-
+from modules.corefiles import  menus_layout, clear_screen, pause_screen, check_file
 
 def main_menu():
   clear_screen()
   # Para llamar a las funciones: borra pantalla, abre menu y vuelve al menu principal
-  def wrapper(func):
+  def wrapper(func, *params):
     clear_screen()
-    func()
+    func(*params)
     main_menu()
 
   title = """
@@ -24,7 +23,7 @@ def main_menu():
   elif option == "2":
     wrapper(people_menu)
   elif option == "3":
-    sys.exit("Hasta pronto!")
+        sys.exit("Hasta pronto!")
   else:
     main_menu()
 
@@ -38,9 +37,10 @@ def actives_menu():
   menus_layout(title, menu)
   option = input("\n>> ")
   if option == "1":
-    #print_filtered()
-    load_products_file()
+    check_file()
+    pause_screen()
   elif option == "2":
+    pass
   else:
     actives_menu()
 

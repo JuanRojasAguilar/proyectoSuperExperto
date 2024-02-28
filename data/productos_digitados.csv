@@ -1,0 +1,597 @@
+﻿NroItem;CodTransaccion;NroSerial;CodCampus;NroFormulario;Nombre;Ubicación;Proveedor;EmpresaResponsable;Estado;codebar
+51;327;400SN39173;CPU000;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU000*
+52;327;COM2024CM21070723;MON000;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON000*
+53;327;KBM130091706;TE000;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE000*
+54;327;Sin serial ;MO000;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO000*
+55;327;400SN39208;CPU001;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU001*
+56;327;COM2024CM21070880;MON001;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON001*
+57;327;KBM130090718;TE001;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE001*
+58;327;Sin serial ;MO001;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO001*
+59;327;400SN39182;CPU002;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU002*
+60;327;COM2024CM21070018;MON002;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON002*
+61;327;KBM130090717;TE002;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE002*
+62;327;Sin serial ;MO002;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO002*
+63;327;400SN39190;CPU003;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU003*
+64;327;COM2024CM21070876;MON003;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON003*
+65;327;KBM130090719;TE003;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE003*
+66;327;Sin serial ;MO003;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO003*
+67;327;400SN39186;CPU004;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU004*
+68;327;COM2024CM21070838;MON004;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON004*
+69;327;KBM130091718;TE004;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE004*
+70;327;Sin serial ;MO004;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO004*
+71;327;400SN39198;CPU005;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU005*
+72;327;COM2024CM21070638;MON005;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON005*
+73;327;KBM130091719;TE005;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE005*
+74;327;Sin serial ;MO005;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO005*
+75;327;102SN55107;CPU006;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU006*
+76;327;COM2024CM21070037;MON006;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON006*
+77;327;KBM130091731;TE006;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE006*
+78;327;Sin serial ;MO006;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO006*
+79;327;102SN55106;CPU007;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU007*
+80;327;COM2024CM21070115;MON007;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON007*
+81;327;KBM130091732;TE007;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE007*
+82;327;Sin serial ;MO007;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO007*
+83;327;400SN39204;CPU008;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU008*
+84;327;COM2024CM21070874;MON008;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON008*
+85;327;KBM130090731;TE008;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE008*
+86;327;Sin serial ;MO008;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO008*
+87;327;400SN39214;CPU009;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU009*
+88;327;COM2024CM21070105;MON009;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON009*
+89;327;KBM130090732;TE009;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE009*
+90;327;Sin serial ;MO009;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO009*
+91;327;400SN39189;CPU010;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU010*
+92;327;COM2024CM21070010;MON010;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON010*
+93;327;KBM130091733;TE010;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE010*
+94;327;Sin serial ;MO010;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO010*
+95;327;400SN39223;CPU011;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU011*
+96;327;COM2024CM21070109;MON011;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON011*
+97;327;KBM130090703;TE011;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE011*
+98;327;Sin serial ;MO011;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO011*
+99;327;400SN39229;CPU012;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU012*
+100;327;COM2024CM21070502;MON012;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON012*
+101;327;KBM130090708;TE012;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE012*
+102;327;Sin serial ;MO012;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO012*
+103;327;400SN39178;CPU013;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU013*
+104;327;COM2024CM21070136;MON013;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON013*
+105;327;KBM130091708;TE013;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE013*
+106;327;Sin serial ;MO013;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO013*
+107;327;400SN39196;CPU014;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU014*
+108;327;COM2024CM21070001;MON014;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON014*
+109;327;KBM130091707;TE014;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE014*
+110;327;Sin serial ;MO014;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO014*
+111;327;102SN55081;CPU015;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU015*
+112;327;COM2024CM21070846;MON015;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON015*
+113;327;KBM130090709;TE015;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE015*
+114;327;Sin serial ;MO015;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO015*
+115;327;400SN39183;CPU016;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU016*
+116;327;COM2024CM21070211;MON016;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON016*
+117;327;KBM130091709;TE016;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE016*
+118;327;Sin serial ;MO016;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO016*
+119;327;102SN55098;CPU017;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU017*
+120;327;COM2024CM21070733;MON017;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON017*
+121;327;KBM130090710;TE017;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE017*
+122;327;Sin serial ;MO017;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO017*
+123;327;102SN55108;CPU018;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU018*
+124;327;COM2024CM21070287;MON018;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON018*
+125;327;KBM130091748;TE018;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE018*
+126;327;Sin serial ;MO018;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO018*
+127;327;400SN39224;CPU019;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU019*
+128;327;COM2024CM21070629;MON019;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON019*
+129;327;KBM130090748;TE019;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE019*
+130;327;;MO019;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO019*
+131;327;400SN39179;CPU020;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU020*
+132;327;COM2024CM21070188;MON020;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON020*
+133;327;KBM130090749;TE020;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE020*
+134;327;Sin serial ;MO020;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO020*
+135;327;102SN55092;CPU021;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU021*
+136;327;COM2024CM21070050;MON021;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON021*
+137;327;KBM130090705;TE021;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE021*
+138;327;Sin serial ;MO021;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO021*
+139;327;400SN39187;CPU022;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU022*
+140;327;COM2024CM21070663;MON022;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON022*
+141;327;KBM130090733;TE022;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE022*
+142;327;Sin serial ;MO022;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO022*
+143;327;400SN39200;CPU023;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU023*
+144;327;COM2024CM21070705;MON023;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON023*
+145;327;KBM130091705;TE023;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE023*
+146;327;Sin serial ;MO023;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO023*
+147;327;102SN55091;CPU024;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU024*
+148;327;COM2024CM21070754;MON024;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON024*
+149;327;KBM130091701;TE024;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE024*
+150;327;Sin serial ;MO024;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO024*
+151;327;400SN39237;CPU025;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU025*
+152;327;COM2024CM21070394;MON025;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON025*
+153;327;KBM130091751;TE025;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE025*
+154;327;Sin serial ;MO025;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO025*
+155;327;102SN55099;CPU026;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU026*
+156;327;COM2024CM21070683;MON026;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON026*
+157;327;KBM130090751;TE026;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE026*
+158;327;Sin serial ;MO026;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO026*
+159;327;400SN39184;CPU027;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU027*
+160;327;COM2024CM21070520;MON027;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON027*
+161;327;KBM130091717;TE027;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE027*
+162;327;Sin serial ;MO027;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO027*
+163;327;400SN39180;CPU028;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU028*
+164;327;COM2024CM21070374;MON028;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON028*
+165;327;KBM130090704;TE028;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE028*
+166;327;Sin serial ;MO028;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO028*
+167;327;400SN39199;CPU029;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU029*
+168;327;COM2024CM21070711;MON029;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON029*
+169;327;KBM130091715;TE029;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE029*
+170;327;Sin serial ;MO029;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO029*
+171;327;102SN55105;CPU030;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU030*
+172;327;COM2024CM21070043;MON030;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON030*
+173;327;UD18J2C00169;TE030;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE030*
+174;327;Sin serial ;MO030;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO030*
+175;327;102SN55097;CPU031;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU031*
+176;327;COM2024CM21070151;MON031;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON031*
+177;327;KBM130090716;TE031;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE031*
+178;327;Sin serial ;MO031;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO031*
+179;327;102SN55104;CPU032;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU032*
+180;327;COM2024CM21070127;MON032;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON032*
+181;327;KBM130090715;TE032;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE032*
+182;327;Sin serial ;MO032;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO032*
+183;327;102SN55084;CPU033;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU033*
+184;327;COM2024CM21070029;MON033;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON033*
+185;327;KBM130091714;TE033;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE033*
+186;327;Sin serial ;MO033;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO033*
+187;327;400SN39194;CPU034;966217823;CPU - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU034*
+188;327;COM2024CM21070135;MON034;966217823;Monitor - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MON034*
+189;327;KBM130090714;TE034;966217823;Teclado - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*TE034*
+190;327;Sin serial ;MO034;966217823;Mouse - Bodg50-9051-900-0017 GMR ESC   ;Salón Sputnik;Compumax Computer ;Campuslands;0;*MO034*
+191;327;Sin serial ;CPU035;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Sputnik;Compumax Computer ;Campuslands;0;*CPU035*
+192;327;400SN39175;CPU036;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU036*
+193;327;COM2024CM21070257;MON035;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON035*
+194;327;KBM130091739;TE035;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE035*
+195;327;Sin serial ;MO035;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO035*
+196;327;400SN39206;CPU037;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU037*
+197;327;COM2024CM21070609;MON036;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON036*
+198;327;KBM130091743;TE036;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE036*
+199;327;Sin serial ;MO036;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO036*
+200;327;400SN39212;CPU038;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU038*
+201;327;COM2024CM21070778;MON037;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON037*
+202;327;KBM130090742;TE037;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE037*
+203;327;Sin serial ;MO037;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO037*
+204;327;400SN39217;CPU039;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU039*
+205;327;COM2024CM21070069;MON038;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON038*
+206;327;KBM130091742;TE038;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE038*
+207;327;Sin serial ;MO038;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO038*
+208;327;400SN39203;CPU040;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU040*
+209;327;COM2024CM21070349;MON039;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON039*
+210;327;KBM130090743;TE039;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE039*
+211;327;Sin serial ;MO039;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO039*
+212;327;400SN39201;CPU041;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU041*
+213;327;COM2024CM21070004;MON040;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON040*
+214;327;KBM130091710;TE040;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE040*
+215;327;Sin serial ;MO040;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO040*
+216;327;400SN39207;CPU042;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU042*
+217;327;COM2024CM21070727;MON041;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON041*
+218;327;KBM130090728;TE041;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE041*
+219;327;Sin serial ;MO041;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO041*
+220;327;400SN39170;CPU043;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU043*
+221;327;COM2024CM21070063;MON042;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON042*
+222;327;KBM130090729;TE042;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE042*
+223;327;Sin serial ;MO042;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO042*
+224;327;400SN39193;CPU044;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU044*
+225;327;COM2024CM21070203;MON043;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON043*
+226;327;KBM130091734;TE043;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE043*
+227;327;Sin serial ;MO043;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO043*
+228;327;400SN39213;CPU045;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU045*
+229;327;COM2024CM21070517;MON044;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON044*
+230;327;KBM130090735;TE044;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE044*
+231;327;Sin serial ;MO044;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO044*
+232;327;400SN39197;CPU046;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU046*
+233;327;COM2024CM21070007;MON045;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON045*
+234;327;KBM130090734;TE045;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE045*
+235;327;Sin serial ;MO045;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO045*
+236;327;102SN55078;CPU047;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU047*
+237;327;COM2024CM21070008;MON046;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON046*
+238;327;KBM130090750;TE046;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE046*
+239;327;Sin serial ;MO046;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO046*
+240;327;102SN55085;CPU048;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU048*
+241;327;COM2024CM21070117;MON047;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON047*
+242;327;KBM130091713;TE047;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE047*
+243;327;Sin serial ;MO047;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO047*
+244;327;400SN39233;CPU049;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU049*
+245;327;COM2024CM21070277;MON048;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON048*
+246;327;KBM130090713;TE048;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE048*
+247;327;Sin serial ;MO048;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO048*
+248;327;102SN55082;CPU050;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU050*
+249;327;COM2024CM21070406;MON049;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON049*
+250;327;KBM130091712;TE049;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE049*
+251;327;Sin serial ;MO049;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO049*
+252;327;102SN55101;CPU051;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU051*
+253;327;COM2024CM21070557;MON050;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON050*
+254;327;KBM130091711;TE050;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE050*
+255;327;Sin serial ;MO050;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO050*
+256;327;400SN39192;CPU052;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU052*
+257;327;COM2024CM21070853;MON051;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON051*
+258;327;KBM130090712;TE051;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE051*
+259;327;Sin serial ;MO051;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO051*
+260;327;400SN39181;CPU053;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU053*
+261;327;COM2024CM21070893;MON052;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON052*
+262;327;KBM130090711;TE052;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE052*
+263;327;Sin serial ;MO052;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO052*
+264;327;400SN39195;CPU054;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU054*
+265;327;COM2024CM21070898;MON053;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON053*
+266;327;KBM130091741;TE053;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE053*
+267;327;Sin serial ;MO053;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO053*
+268;327;400SN39232;CPU055;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU055*
+269;327;COM2024CM21070400;MON054;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON054*
+270;327;KBM130091740;TE054;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE054*
+271;327;Sin serial ;MO054;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO054*
+272;327;400SN39231;CPU056;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU056*
+273;327;COM2024CM21070761;MON055;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON055*
+274;327;KBM130090739;TE055;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE055*
+275;327;Sin serial ;MO055;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO055*
+276;327;400SN39171;CPU057;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU057*
+277;327;COM2024CM21070534;MON056;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON056*
+278;327;KBM130090741;TE056;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE056*
+279;327;Sin serial ;MO056;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO056*
+280;327;400SN39220;CPU058;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU058*
+281;327;COM2024CM21070017;MON057;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON057*
+282;327;KBM130091750;TE057;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE057*
+283;327;Sin serial ;MO057;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO057*
+284;327;102SN55100;CPU059;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU059*
+285;327;COM2024CM21070281;MON058;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON058*
+286;327;KBM130091749;TE058;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE058*
+287;327;Sin serial ;MO058;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO058*
+288;327;400SN39236;CPU060;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU060*
+289;327;COM2024CM21070205;MON059;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON059*
+290;327;KBM130090740;TE059;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE059*
+291;327;Sin serial ;MO059;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO059*
+292;327;400SN39216;CPU061;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU061*
+293;327;COM2024CM21070041;MON060;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON060*
+294;327;KBM130091728;TE060;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE060*
+295;327;Sin serial ;MO060;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO060*
+296;327;400SN39176;CPU062;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU062*
+297;327;COM2024CM21070712;MON061;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON061*
+298;327;KBM130090727;TE061;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE061*
+299;327;Sin serial ;MO061;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO061*
+300;327;102SN55077;CPU063;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU063*
+301;327;COM2024CM21070129;MON062;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON062*
+302;327;KBM130091727;TE062;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE062*
+303;327;Sin serial ;MO062;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO062*
+304;327;400SN39211;CPU064;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU064*
+305;327;COM2024CM21070140;MON063;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON063*
+306;327;KBM130091726;TE063;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE063*
+307;327;Sin serial ;MO063;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO063*
+308;327;400SN39219;CPU065;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU065*
+309;327;COM2024CM21070316;MON064;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON064*
+310;327;KBM130090725;TE064;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE064*
+311;327;Sin serial ;MO064;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO064*
+312;327;102SN55093;CPU066;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU066*
+313;327;COM2024CM21070153;MON065;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON065*
+314;327;KBM130090726;TE065;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE065*
+315;327;Sin serial ;MO065;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO065*
+316;327;400SN39210;CPU067;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU067*
+317;327;COM2024CM21070744;MON066;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON066*
+318;327;KBM130091752;TE066;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE066*
+319;327;Sin serial ;MO066;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO066*
+320;327;400SN39168;CPU068;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU068*
+321;327;COM2024CM21070830;MON067;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON067*
+322;327;KBM130090753;TE067;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE067*
+323;327;Sin serial ;MO067;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO067*
+324;327;400SN39191;CPU069;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*CPU069*
+325;327;COM2024CM21070407;MON068;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MON068*
+326;327;KBM130091753;TE068;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*TE068*
+327;327;Sin serial ;MO068;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Apolo;Compumax Computer ;Campuslands;0;*MO068*
+328;327;102SN55080;CPU070;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU070*
+329;327;COM2024CM21070498;MON069;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON069*
+330;327;KBM130090722;TE069;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE069*
+331;327;Sin serial ;MO069;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO069*
+332;327;400SN39221;CPU071;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU071*
+333;327;COM2024CM21070464;MON070;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON070*
+334;327;KBM130090723;TE070;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE070*
+335;327;Sin serial ;MO070;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO070*
+336;327;400SN39230;CPU072;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU072*
+337;327;COM2024CM21070504;MON071;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON071*
+338;327;KBM130091725;TE071;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE071*
+339;327;Sin serial ;MO071;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO071*
+340;327;102SN55089;CPU073;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU073*
+341;327;COM2024CM21070338;MON072;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON072*
+342;327;KBM130091737;TE072;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE072*
+343;327;Sin serial ;MO072;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO072*
+344;327;400SN39202;CPU074;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU074*
+345;327;COM2024CM21070759;MON073;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON073*
+346;327;KBM130091702;TE073;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE073*
+347;327;Sin serial ;MO073;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO073*
+348;327;102SN55088;CPU075;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU075*
+349;327;COM2024CM21070817;MON074;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON074*
+350;327;KBM130090737;TE074;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE074*
+351;327;Sin serial ;MO074;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO074*
+352;327;400SN39226;CPU076;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU076*
+353;327;COM2024CM21070280;MON075;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON075*
+354;327;KBM130090706;TE075;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE075*
+355;327;Sin serial ;MO075;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO075*
+356;327;400SN39235;CPU077;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU077*
+357;327;COM2024CM21070668;MON076;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON076*
+358;327;KBM130090707;TE076;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE076*
+359;327;Sin serial ;MO076;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO076*
+360;327;400SN39188;CPU078;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU078*
+361;327;COM2024CM21070138;MON077;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON077*
+362;327;KBM130091729;TE077;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE077*
+363;327;Sin serial ;MO077;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO077*
+364;327;400SN39209;CPU079;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU079*
+365;327;COM2024CM21070451;MON078;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON078*
+366;327;KBM130090730;TE078;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE078*
+367;327;Sin serial ;MO078;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO078*
+368;327;102SN55110;CPU080;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU080*
+369;327;COM2024CM21070012;MON079;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON079*
+370;327;KBM130091730;TE079;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE079*
+371;327;Sin serial ;MO079;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO079*
+372;327;102SN55109;CPU081;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU081*
+373;327;COM2024CM21070786;MON080;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON080*
+374;327;KBM130090296;TE080;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE080*
+375;327;Sin serial ;MO080;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO080*
+376;327;102SN55103;CPU082;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU082*
+377;327;COM2024CM21070515;MON081;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON081*
+378;327;KBM130090724;TE081;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE081*
+379;327;Sin serial ;MO081;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO081*
+380;327;400SN39222;CPU083;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU083*
+381;327;COM2024CM21070386;MON082;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON082*
+382;327;KBM130091724;TE082;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE082*
+383;327;Sin serial ;MO082;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO082*
+384;327;102SN55090;CPU084;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU084*
+385;327;COM2024CM21070777;MON083;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON083*
+386;327;KBM130091723;TE083;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE083*
+387;327;Sin serial ;MO083;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO083*
+388;327;102SN55076;CPU085;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU085*
+389;327;COM2024CM21070025;MON084;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON084*
+390;327;KBM130091720;TE084;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE084*
+391;327;Sin serial ;MO084;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO084*
+392;327;400SN39225;CPU086;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU086*
+393;327;COM2024CM21070137;MON085;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON085*
+394;327;KBM130090747;TE085;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE085*
+395;327;Sin serial ;MO085;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO085*
+396;327;102SN55094;CPU087;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU087*
+397;327;COM2024CM21070565;MON086;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON086*
+398;327;KBM130091736;TE086;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE086*
+399;327;Sin serial ;MO086;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO086*
+400;327;400SN39228;CPU088;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU088*
+401;327;COM2024CM21070574;MON087;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON087*
+402;327;KBM130090721;TE087;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE087*
+403;327;Sin serial ;MO087;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO087*
+404;327;400SN39205;CPU089;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU089*
+405;327;COM2024CM21070092;MON088;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON088*
+406;327;KBM130090720;TE088;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE088*
+407;327;Sin serial ;MO088;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO088*
+408;327;102SN55087;CPU090;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU090*
+409;327;COM2024CM21070318;MON089;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON089*
+410;327;KBM130091722;TE089;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE089*
+411;327;Sin serial ;MO089;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO089*
+412;327;400SN39177;CPU091;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU091*
+413;327;COM2024CM21070834;MON090;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON090*
+414;327;KBM130091721;TE090;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE090*
+415;327;Sin serial ;MO090;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO090*
+416;327;102SN55102;CPU092;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU092*
+417;327;COM2024CM21070199;MON091;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON091*
+418;327;KBM130090736;TE091;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE091*
+419;327;Sin serial ;MO091;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO091*
+420;327;400SN39234;CPU093;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU093*
+421;327;COM2024CM21070503;MON092;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON092*
+422;327;KBM130091738;TE092;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE092*
+423;327;Sin serial ;MO092;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO092*
+424;327;400SN39174;CPU094;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU094*
+425;327;COM2024CM21070236;MON093;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON093*
+426;327;KBM130090702;TE093;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE093*
+427;327;Sin serial ;MO093;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO093*
+428;327;102SN55095;CPU095;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU095*
+429;327;COM2024CM21070097;MON094;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON094*
+430;327;KBM130091745;TE094;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE094*
+431;327;Sin serial ;MO094;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO094*
+432;327;102SN55086;CPU096;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU096*
+433;327;COM2024CM21070239;MON095;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON095*
+434;327;KBM130090746;TE095;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE095*
+435;327;Sin serial ;MO095;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO095*
+436;327;400SN39172;CPU097;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU097*
+437;327;COM2024CM21070442;MON096;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON096*
+438;327;KBM130091746;TE096;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE096*
+439;327;Sin serial ;MO096;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO096*
+440;327;102SN55083;CPU098;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU098*
+441;327;COM2024CM21070223;MON097;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON097*
+442;327;KBM130091747;TE097;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE097*
+443;327;Sin serial ;MO097;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO097*
+444;327;400SN39215;CPU099;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU099*
+445;327;COM2024CM21070482;MON098;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON098*
+446;327;KBM130091744;TE098;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE098*
+447;327;Sin serial ;MO098;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO098*
+448;327;400SN39227;CPU100;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU100*
+449;327;COM2024CM21070844;MON099;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON099*
+450;327;KBM130090744;TE099;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE099*
+451;327;Sin serial ;MO099;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO099*
+452;327;400SN39169;CPU101;966217823;CPU-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*CPU101*
+453;327;COM2024CM21070418;MON100;966217823;Monitor-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MON100*
+454;327;KBM130090752;TE100;966217823;Teclado-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*TE100*
+455;327;Sin serial ;MO100;966217823;Mouse-Bodg50-9048-900-0044 GMRESC R3;Salón Artemis ;Compumax Computer ;Campuslands;0;*MO100*
+456;327;500SN32576;CPU102;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU102*
+457;327;COM2024CM21070597;MON101;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON101*
+458;327;CK440U-10923;TE101;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE101*
+459;327;Sin serial ;MO101;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO101*
+460;327;500SN32598;CPU103;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU103*
+461;327;COM2024CM21070864;MON102;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON102*
+462;327;CK440U-10924;TE102;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE102*
+463;327;Sin serial ;MO102;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO102*
+464;327;500SN32557;CPU104;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU104*
+465;327;COM2024CM21070602;MON103;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON103*
+466;327;CK440U-10925;TE103;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE103*
+467;327;Sin serial ;MO103;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO103*
+468;327;500SN32564;CPU105;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU105*
+469;327;COM2024CM21070823;MON104;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON104*
+470;327;CK440U-10926;TE104;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE104*
+471;327;Sin serial ;MO104;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO104*
+472;327;500SN32556;CPU106;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU106*
+473;327;COM2024CM21070855;MON105;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON105*
+474;327;CK440U-10927;TE105;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE105*
+475;327;Sin serial ;MO105;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO105*
+476;327;500SN32571;CPU107;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU107*
+477;327;COM2024CM21070180;MON106;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON106*
+478;327;CK440U-10936;TE106;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE106*
+479;327;Sin serial ;MO106;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO106*
+480;327;500SN32591;CPU108;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU108*
+481;327;COM2024CM21070122;MON107;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON107*
+482;327;CK440U-10937;TE107;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE107*
+483;327;Sin serial ;MO107;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO107*
+484;327;500SN32584;CPU109;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU109*
+485;327;COM2024CM21070784;MON108;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON108*
+486;327;CK440U-10935;TE108;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE108*
+487;327;Sin serial ;MO108;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO108*
+488;327;500SN32627;CPU110;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU110*
+489;327;COM2024CM21070095;MON109;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON109*
+490;327;CK440U-10974;TE109;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE109*
+491;327;Sin serial ;MO109;966217823;Mouse - Bodg50 - 4051 -900 -0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO109*
+492;327;500SN32621;CPU111;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU111*
+493;327;COM2024CM21070221;MON110;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON110*
+494;327;CK440U-10932;TE110;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE110*
+495;327;Sin serial ;MO110;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO110*
+496;327;500SN32588;CPU112;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU112*
+497;327;COM2024CM21070836;MON111;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON111*
+498;327;CK440U-10934;TE111;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE111*
+499;327;Sin serial ;MO111;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO111*
+500;327;500SN32626;CPU113;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU113*
+501;327;COM2024CM21070776;MON112;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON112*
+502;327;CK440U-10933;TE112;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE112*
+503;327;Sin serial ;MO112;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO112*
+504;327;500SN32596;CPU114;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU114*
+505;327;COM2024CM21070605;MON113;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON113*
+506;327;CK440U-10928;TE113;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE113*
+507;327;Sin serial ;MO113;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO113*
+508;327;500SN32567;CPU115;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU115*
+509;327;COM2024CM21070511;MON114;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON114*
+510;327;CK440U-11024;TE114;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE114*
+511;327;Sin serial ;MO114;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO114*
+512;327;500SN32585;CPU116;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU116*
+513;327;COM2024CM21070408;MON115;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON115*
+514;327;CK440U-10931;TE115;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE115*
+515;327;Sin serial ;MO115;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO115*
+516;327;500SN32572;CPU117;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU117*
+517;327;COM2024CM21070209;MON116;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON116*
+518;327;CK440U-11023;TE116;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE116*
+519;327;Sin serial ;MO116;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO116*
+520;327;500SN32599;CPU118;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU118*
+521;327;COM2024CM21070285;MON117;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON117*
+522;327;CK440U-11026;TE117;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE117*
+523;327;Sin serial ;MO117;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO117*
+524;327;500SN32581;CPU119;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU119*
+525;327;COM2024CM21070086;MON118;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON118*
+526;327;CK440U-11025;TE118;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE118*
+527;327;Sin serial ;MO118;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO118*
+528;327;500SN32619;CPU120;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU120*
+529;327;COM2024CM21070669;MON119;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON119*
+530;327;CK440U-10930;TE119;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE119*
+531;327;Sin serial ;MO119;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO119*
+532;327;500SN32575;CPU121;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*CPU121*
+533;327;COM2024CM21070692;MON120;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MON120*
+534;327;CK440U-10929;TE120;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*TE120*
+535;327;Sin serial ;MO120;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Salón Skylab;Compumax Computer ;Campuslands;0;*MO120*
+536;327;500SN32595;CPU122;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Sala asesoria;Compumax Computer ;Campuslands;0;*CPU122*
+537;327;COM2024CM21070057;MON121;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Sala asesoria;Compumax Computer ;Campuslands;0;*MON121*
+538;327;CK440U-10760;TE121;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Sala asesoria;Compumax Computer ;Campuslands;0;*TE121*
+539;327;Sin serial ;MO121;966217823;Mouse - Bodg50 - 4051 -900 - 0005R5;Sala asesoria;Compumax Computer ;Campuslands;0;*MO121*
+540;327;500SN32604;CPU123;966217823;CPU - Bodg50 - 4051 -900 - 0005R5;Sala asesoria;Compumax Computer ;Campuslands;0;*CPU123*
+541;327;COM2024CM21070575;MON122;966217823;Monitor - Bodg50 - 4051 -900 - 0005R5;Sala asesoria;Compumax Computer ;Campuslands;0;*MON122*
+542;327;CK440U-10656;TE122;966217823;Teclado - Bodg50 - 4051 -900 - 0005R5;Sala asesoria;Compumax Computer ;Campuslands;0;*TE122*
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
