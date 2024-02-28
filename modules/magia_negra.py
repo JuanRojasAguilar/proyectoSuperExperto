@@ -6,7 +6,6 @@ import time
 def escribir_numeros():
   # inicializar y asignar contadores
   contador_cpu, contador_teclado, contador_monitor, contador_mouse = 0, 0 ,0 ,0   
-
   # Abrir archivos
   with open("data/"+products_file) as file:
     columns = csv.reader(file)
