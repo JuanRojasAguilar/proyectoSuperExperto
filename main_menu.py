@@ -1,6 +1,6 @@
 import sys
 
-from modules.corefiles import clear_screen, load_products_file, menus_layout, write_line
+from modules.corefiles import clear_screen, load_products_file, menus_layout
 
 
 def main_menu():
@@ -40,8 +40,7 @@ def actives_menu():
   if option == "1":
     #print_filtered()
     load_products_file()
-  if option == "2":
-    print("Editar")
+  elif option == "2":
   else:
     actives_menu()
 

@@ -1,4 +1,4 @@
-import menu as m 
+import main_menu as m 
 
 def main():
   m.main_menu()
