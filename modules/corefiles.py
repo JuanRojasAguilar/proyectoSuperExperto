@@ -57,7 +57,7 @@ def check_file():
         sys.exit("Problemitas")
 
 
-personal={}
+
 def json_personal(personal):
   with open('data/personal.json',"w") as pe:
     json.dump(personal,pe, indent=4)
@@ -70,7 +70,31 @@ def json_zone(zone):
         json.dump(zone,zo, indent=4)
 
 #crea un archivo json de activos
-activos={}
-def json_active(activos):
-    with open('data/activos.json',"w") as ac:
-        json.dump(activos,ac, indent=4)
+
+
+def json_active(assets):
+    with open('data/assets.json',"w") as ac:
+        json.dump(assets,ac, indent=4)
+
+asset ={
+  'CodTransaccion': '',
+  'NoFormulario': '',
+  'CodCampus': '',
+  'Marca': '',
+  'Categoria': '',
+  'Tipo': '',
+  'ValorUnitario': '',
+  'proveedor': '',
+  'NoSerial': '',
+  'EmpresaResponsable': '',
+  'Estado': '',
+  'Historial':{
+    'Nrold': '',
+    'Fecha': '',
+    'TipoMovimiento': '',
+    'IdRespMov': '',
+  }
+}
+
+
+
