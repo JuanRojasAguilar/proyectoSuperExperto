@@ -50,12 +50,6 @@ def people_menu():
   +  MENU PERSONAS  +
   +++++++++++++++++++
   """
-  menu = [["1.", "Agregar"],["2","Salir"]]
-  menus_layout(title, menu)
-  option = input("\n>> ")
-  if option == "1":
-    print("Agregar")
-  if option == "2":
-    pass
+  menu = [["1.", "Agregar"],["2","Salir"]] chiquito 
   else:
     people_menu()
