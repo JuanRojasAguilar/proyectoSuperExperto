@@ -47,13 +47,12 @@ def read_productos_csv():
 
 def check_file():
     data = read_productos_csv()
-    print(data)
     try:
       if os.path.isfile("data/actives.json"):
-        print("existe")
+        return read_productos_csv
       else:
         with open("data/actives.json", "w") as file:
           json.dump(data, file, indent=2)
-        print("logrado!")
+        return 
     except:
         sys.exit("Problemitas")
