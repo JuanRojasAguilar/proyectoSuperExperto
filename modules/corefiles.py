@@ -2,7 +2,6 @@ import os
 import sys
 import csv
 import json
-
 from tabulate import tabulate
 
 products_file = "productos_digitados.csv"
@@ -58,10 +57,11 @@ def check_file():
         sys.exit("Problemitas")
 
 
-person={}
-def json_people(person):
-  with open('data/person.json',"w") as pe:
-    json.dump(person,pe, indent=4)
+personal={}
+def json_personal(personal):
+  with open('data/personal.json',"w") as pe:
+    json.dump(personal,pe, indent=4)
+
 
 #crea un archivo json de zonas
 zone={}

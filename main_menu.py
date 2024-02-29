@@ -1,8 +1,10 @@
 import sys
-from modules.corefiles import person,zone,activos
-from modules.corefiles import clear_screen, load_products_file, menus_layout
 
+from modules.corefiles import clear_screen, menus_layout,json_active,json_personal,json_zone, check_file
 
+json_zone()
+json_personal()
+json_active()
 def main_menu():
   clear_screen()
   # Para llamar a las funciones: borra pantalla, abre menu y vuelve al menu principal
@@ -32,6 +34,7 @@ def main_menu():
   elif option == "6":
     wrapper(people_menu)
   elif option == "7":
+    check_file()
     sys.exit("Hasta pronto!")
   else:
     main_menu()
