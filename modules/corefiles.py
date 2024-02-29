@@ -57,55 +57,20 @@ def check_file():
     except:
         sys.exit("Problemitas")
 
-people={
 
-  'id': '',
-  'Name': '',
-  'Email': '',
-  'Phone': {
-    'Movil':'',
-    'House':'',
-    'Personal':'', 
-    'Oficina':'',  
-    },
-}
-
-def json_people(people):
-  with open('data/people.json',"w") as pe:
-    json.dump(people,pe, indent=4)
+person={}
+def json_people(person):
+  with open('data/person.json',"w") as pe:
+    json.dump(person,pe, indent=4)
 
 #crea un archivo json de zonas
-zone={
-  'NoZona': '',
-  'NombreZona': '',
-  'TotalCap': 35,
-}
-
+zone={}
 def json_zone(zone):
     with open('data/zone.json',"w") as zo:
         json.dump(zone,zo, indent=4)
 
 #crea un archivo json de activos
-active={
-  'CodTransaccion': '',
-  'NoFormulario': '',
-  'CodCampus': '',
-  'Marca': '',
-  'Categoria': '',
-  'Tipo': '',
-  'ValorUnitario': '',
-  'proveedor': '',
-  'NoSerial': '',
-  'EmpresaResponsable': '',
-  'Estado': '',
-  'Historial':{
-    'Nrold': '',
-    'Fecha': '',
-    'TipoMovimiento': '',
-    'IdRespMov': '',
-  }
-}
-
-def json_active(active):
-    with open('data/activo.json',"w") as ac:
-        json.dump(active,ac, indent=4)
+activos={}
+def json_active(activos):
+    with open('data/activos.json',"w") as ac:
+        json.dump(activos,ac, indent=4)

@@ -1,5 +1,5 @@
 import sys
-
+from modules.corefiles import person,zone,activos
 from modules.corefiles import clear_screen, load_products_file, menus_layout
 
 
