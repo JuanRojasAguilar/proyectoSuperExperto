@@ -1,5 +1,4 @@
 from modules.corefiles import menus_layout
-import sys
 
 def menu_personal():
   title = """
