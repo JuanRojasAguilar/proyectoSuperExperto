@@ -1,4 +1,4 @@
-from modules.corefiles import clear_screen, load_products_file, menus_layout
+from modules.corefiles import menus_layout
 import sys
 
 def menu_assign_asset():
@@ -15,6 +15,6 @@ def menu_assign_asset():
   elif option == "2":
     pass
   elif option == "3":
-    sys.exit("Hasta pronto!")
+    pass
   else:
     menu_assign_asset()

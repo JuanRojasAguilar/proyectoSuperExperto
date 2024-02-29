@@ -1,4 +1,4 @@
-from modules.corefiles import clear_screen, load_products_file, menus_layout
+from modules.corefiles import menus_layout
 import sys
 
 def menu_report():
@@ -21,6 +21,6 @@ def menu_report():
   elif option == "5":
     pass
   elif option == "6":
-    sys.exit("Hasta pronto!")
+    pass
   else:
     menu_report()

@@ -85,7 +85,7 @@ def json_zone(zone):
         json.dump(zone,zo, indent=4)
 
 #crea un archivo json de activos
-active={
+asset ={
   'CodTransaccion': '',
   'NoFormulario': '',
   'CodCampus': '',
