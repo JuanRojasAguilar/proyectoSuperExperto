@@ -15,7 +15,7 @@ def main_menu():
     + SISTEMA DE GESTION DE DATOS  +
     ++++++++++++++++++++++++++++++++
   """
-  menu = [["1", "Menu Producto"],["2.", "Menu personas"], ["2.", "Salir"]]
+  menu = [["1", "Menu Producto"],["2.", "Menu personas"], ["3.", "Salir"]]
   menus_layout(title, menu) # Así se hace para que imprima el titulo y el menú
   option = input("\n>> ")
   if option == "1":
@@ -23,7 +23,7 @@ def main_menu():
   elif option == "2":
     wrapper(people_menu)
   elif option == "3":
-        sys.exit("Hasta pronto!")
+    sys.exit("Hasta pronto!")
   else:
     main_menu()
 
