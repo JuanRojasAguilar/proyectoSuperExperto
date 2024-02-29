@@ -2,8 +2,11 @@
 from modules.corefiles import clear_screen,menus_layout
 
 from modules.corefiles import menus_layout
+<<<<<<< HEAD
 
 import sys
+=======
+>>>>>>> c2c1f31773ece5eb21e27b1bbd7c10dabf4cef50
 
 def menu_personal():
   title = """
@@ -26,4 +29,7 @@ def menu_personal():
     pass
   else:
     menu_personal()
+<<<<<<< HEAD
 
+=======
+>>>>>>> c2c1f31773ece5eb21e27b1bbd7c10dabf4cef50

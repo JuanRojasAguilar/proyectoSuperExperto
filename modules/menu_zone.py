@@ -12,7 +12,7 @@ def menu_zone():
   ++++++++++++++++
   """
   menu = [["1.", "Agregar"],["2.", "Editar"],["3.", "Eliminar"],["4.", "Buscar"],["5.", "Regresar al menu principal"]]
-  menus_layout(title, menu)
+  c.menus_layout(title, menu)
   option = input("\n>> ")
   if option == "1":
     pass
