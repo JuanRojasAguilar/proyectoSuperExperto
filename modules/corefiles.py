@@ -4,7 +4,6 @@ import csv
 import json
 from tabulate import tabulate
 
-products_file = "productos_digitados.csv"
 
 # Este es el layout de los menús, imprime el titulo y el menu
 def menus_layout(title:str,menu:list):
