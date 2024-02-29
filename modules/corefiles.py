@@ -22,7 +22,7 @@ def pause_screen():
   else:
     os.system("pause")
 
-<<<<<<< HEAD
+
 # Cargar el archivo csv
 def read_productos_csv():
   data = []
@@ -57,7 +57,7 @@ def check_file():
 
 
 
-=======
+
 #crea archivo json de people
 """people={
   'id': '',
@@ -71,7 +71,7 @@ def check_file():
     },
 }"""
 personal={}
->>>>>>> c2c1f31773ece5eb21e27b1bbd7c10dabf4cef50
+
 def json_personal(personal):
   with open('data/personal.json',"w") as pe:
     json.dump(personal,pe, indent=4)
@@ -83,7 +83,7 @@ def json_zone(zone):
     with open('data/zone.json',"w") as zo:
         json.dump(zone,zo, indent=4)
 
-<<<<<<< HEAD
+
 #crea un archivo json de activos
 
 
@@ -112,6 +112,3 @@ asset ={
 }
 
 
-
-=======
->>>>>>> c2c1f31773ece5eb21e27b1bbd7c10dabf4cef50

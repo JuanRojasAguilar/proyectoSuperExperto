@@ -1,12 +1,7 @@
-
-from modules.corefiles import clear_screen,menus_layout
+import json
+from modules.corefiles import clear_screen,menus_layout,pause_screen,personal,json_personal
 
 from modules.corefiles import menus_layout
-<<<<<<< HEAD
-
-import sys
-=======
->>>>>>> c2c1f31773ece5eb21e27b1bbd7c10dabf4cef50
 
 def menu_personal():
   title = """
@@ -18,7 +13,7 @@ def menu_personal():
   menus_layout(title, menu)
   option = input("\n>> ")
   if option == "1":
-    pass
+    add_people()
   elif option == "2":
     pass
   elif option == "3":
@@ -29,7 +24,37 @@ def menu_personal():
     pass
   else:
     menu_personal()
-<<<<<<< HEAD
 
-=======
->>>>>>> c2c1f31773ece5eb21e27b1bbd7c10dabf4cef50
+#añade las personas al archivo json de personal
+def add_people():
+  Name=input('ingrese el nombre:\n>>')
+  Id=input(f'ingrese el ID de {Name}:\n>>')
+  Email=input(f'ingrese el Email de {Name}:\n>>')
+  Movil=input(f'ingrese el No Movil de {Name}:\n>>')
+  House=input(f'ingrese el No House de {Name}:\n>>')
+  Personal=input(f'ingrese el No Personal de {Name}:\n>>')
+  Oficina=input(f'ingrese el No Oficina de {Name}:\n>>')
+  
+
+  people={
+
+    'Id': Id,
+    'Name': Name,
+    'Email': Email,
+    'Phone': {
+        'Movil':Movil,
+        'House':House,
+        'Personal':Personal, 
+        'Oficina':Oficina,  
+        
+        }
+  }
+  personal.update({Id:people})
+  json_personal(personal)
+  
+  
+  
+  
+  
+  
+  

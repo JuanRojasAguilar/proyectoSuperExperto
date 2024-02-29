@@ -16,10 +16,10 @@ assets={}
 zone={}
 personal={}
 def main_menu():
-  c.clear_screen()
+  clear_screen()
   # Para llamar a las funciones: borra pantalla, abre menu y vuelve al menu principal
   def wrapper(func):
-    c.clear_screen()
+    clear_screen()
     func()
     main_menu()
 
@@ -29,7 +29,7 @@ def main_menu():
     ++++++++++++++++++++++++++++++++
   """
   menu = [["1", "Menu Producto"],["2.", "Menu personas"], ["3.", "Menu zonas"], ["4.", "Asignacion de activos"], ["5.", "Reportes"], ["6.", "Movimiento de activos"], ["7.", "Salir"]]
-  c.menus_layout(title, menu) # Así se hace para que imprima el titulo y el menú
+  menus_layout(title, menu) # Así se hace para que imprima el titulo y el menú
   option = input("\n>> ")
   if option == "1":
     wrapper(menu_assets.menu_assets)
@@ -46,7 +46,6 @@ def main_menu():
   elif option == "7":
     json_active(assets)
     json_zone(zone)
-    json_personal(personal)
     check_file()
     sys.exit("Hasta pronto!")
   else:
