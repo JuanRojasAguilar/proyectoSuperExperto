@@ -1,7 +1,7 @@
-import main_menu as m 
+import modules.main_menu as main_menu
 
 def main():
-  m.main_menu()
+  main_menu()
 
 if __name__ == "__main__":
   main()

@@ -1,13 +1,12 @@
 from modules.corefiles import clear_screen, load_products_file, menus_layout
 import sys
-
-def menu_zone():
+def menu_asset_movement():
   title = """
-  ++++++++++++++++
-  +  MENU ZONAS  +
-  ++++++++++++++++
+  ++++++++++++++++++++++++++++++++
+  +  MENU MOVIMIENTO DE ACTIVOS  +
+  ++++++++++++++++++++++++++++++++
   """
-  menu = [["1.", "Agregar"],["2.", "Editar"],["3.", "Eliminar"],["4.", "Buscar"],["5.", "Regresar al menu principal"]]
+  menu = [["1.", "Retorno de activo"],["2.", "Dar de baja activo"],["3.", "Cambiar asignacion de activo"],["4.", "Enviar a garantia de activo"],["5.", "Regresar al menu principal"]]
   menus_layout(title, menu)
   option = input("\n>> ")
   if option == "1":
@@ -21,4 +20,4 @@ def menu_zone():
   elif option == "5":
     sys.exit("Hasta pronto!")
   else:
-    menu_zone()
+    menu_asset_movement()
