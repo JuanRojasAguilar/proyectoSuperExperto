@@ -56,3 +56,56 @@ def check_file():
         return 
     except:
         sys.exit("Problemitas")
+
+people={
+
+  'id': '',
+  'Name': '',
+  'Email': '',
+  'Phone': {
+    'Movil':'',
+    'House':'',
+    'Personal':'', 
+    'Oficina':'',  
+    },
+}
+
+def json_people(people):
+  with open('data/people.json',"w") as pe:
+    json.dump(people,pe, indent=4)
+
+#crea un archivo json de zonas
+zone={
+  'NoZona': '',
+  'NombreZona': '',
+  'TotalCap': 35,
+}
+
+def json_zone(zone):
+    with open('data/zone.json',"w") as zo:
+        json.dump(zone,zo, indent=4)
+
+#crea un archivo json de activos
+active={
+  'CodTransaccion': '',
+  'NoFormulario': '',
+  'CodCampus': '',
+  'Marca': '',
+  'Categoria': '',
+  'Tipo': '',
+  'ValorUnitario': '',
+  'proveedor': '',
+  'NoSerial': '',
+  'EmpresaResponsable': '',
+  'Estado': '',
+  'Historial':{
+    'Nrold': '',
+    'Fecha': '',
+    'TipoMovimiento': '',
+    'IdRespMov': '',
+  }
+}
+
+def json_active(active):
+    with open('data/activo.json',"w") as ac:
+        json.dump(active,ac, indent=4)
