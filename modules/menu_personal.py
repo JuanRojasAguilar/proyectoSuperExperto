@@ -27,31 +27,34 @@ def menu_personal():
 
 #añade las personas al archivo json de personal
 def add_people():
-  Name=input('ingrese el nombre:\n>>')
-  Id=input(f'ingrese el ID de {Name}:\n>>')
-  Email=input(f'ingrese el Email de {Name}:\n>>')
-  Movil=input(f'ingrese el No Movil de {Name}:\n>>')
-  House=input(f'ingrese el No House de {Name}:\n>>')
-  Personal=input(f'ingrese el No Personal de {Name}:\n>>')
-  Oficina=input(f'ingrese el No Oficina de {Name}:\n>>')
-  
+  try:
+    Name=input('ingrese el nombre:\n>>')
+    Id=int(input(f'ingrese el ID de {Name}:\n>>'))
+    Email=input(f'ingrese el Email de {Name}:\n>>')
+    Movil=int(input(f'ingrese el No Movil de {Name}:\n>>'))
+    House=int(input(f'ingrese el No House de {Name}:\n>>'))
+    Personal=int(input(f'ingrese el No Personal de {Name}:\n>>'))
+    Oficina=int(input(f'ingrese el No Oficina de {Name}:\n>>'))
+    
 
-  people={
+    people={
 
-    'Id': Id,
-    'Name': Name,
-    'Email': Email,
-    'Phone': {
-        'Movil':Movil,
-        'House':House,
-        'Personal':Personal, 
-        'Oficina':Oficina,  
-        
-        }
-  }
-  personal.update({Id:people})
-  json_personal(personal)
-  
+      'Id': Id,
+      'Name': Name,
+      'Email': Email,
+      'Phone': {
+          'Movil':Movil,
+          'House':House,
+          'Personal':Personal, 
+          'Oficina':Oficina,  
+          
+          }
+    }
+    personal.update({Id:people})
+    json_personal(personal)
+  except ValueError:
+    print('datos invalidos')
+    add_people()
   
   
   

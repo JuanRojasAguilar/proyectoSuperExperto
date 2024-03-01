@@ -44,8 +44,8 @@ def main_menu():
   elif option == "6":
     wrapper(menu_asset_movement.menu_asset_movement)
   elif option == "7":
-    json_active(assets)
-    json_zone(zone)
+    
+    
     check_file()
     sys.exit("Hasta pronto!")
   else:

@@ -59,17 +59,7 @@ def check_file():
 
 
 #crea archivo json de people
-"""people={
-  'id': '',
-  'Name': '',
-  'Email': '',
-  'Phone': {
-    'Movil':"",
-    'House':"",
-    'Personal':'', 
-    'Oficina':'',  
-    },
-}"""
+
 personal={}
 
 def json_personal(personal):
