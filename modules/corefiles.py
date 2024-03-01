@@ -6,7 +6,7 @@ from tabulate import tabulate
 # Este es el layout de los menús, imprime el titulo y el menu
 def menus_layout(title:str,menu:list):
   print(title)
-  print(tabulate(menu, tablefmt="grid"))
+  print(tabulate(menu, tablefmt="fancy_grid"))
 
 # Revisa el sistema operativo en el que está trabajando y borra la pantalla
 def clear_screen():
@@ -51,6 +51,19 @@ def json_assets(assets):
 #para los activos hay 4 estador 0 no asignado 1 asignado 2 dado de baja por daño 3 en repacion y/o garantia
 #Creo una funcion donde filtro el estado deseado de los activos
 damaged_assets = [asset for asset in assets.values() if asset['Estado'] == 2]
+#filtro categorias dentro de activos
+# assets_category = [asset for asset in assets.values() if asset['Categoria'] == categoria_deseada]
+# Saco las categorias para listarlas
+asset_categories = [asset['Categoria'] for asset in assets.values()]
+## Crea una lista de tuplas que contenga cada activo y su asignación de zona correspondiente
+asset_zone = [(asset, zone.get(asset)) for asset in assets.keys() if asset in zone]
+# Crea una lista de las claves 'CodTransaccion' de cada activo
+campus_codes= [asset['CodCampus'] for asset in assets.values()]
+
+
+
+
+
 
 
 
