@@ -1,7 +1,5 @@
 
-from modules.corefiles import clear_screen, menus_layout
-
-from modules.corefiles import menus_layout
+from modules.corefiles import menus_layout, assets, asset, damaged_assets, tabulate
 
 import sys
 
@@ -15,11 +13,15 @@ def menu_report():
   menus_layout(title, menu)
   option = input("\n>> ")
   if option == "1":
-    pass
+    print(assets)
   elif option == "2":
-    pass
+    print("Las categorias de los activos son: ")
+    for categories in assets.keys:
+      print(categories)
   elif option == "3":
-    pass
+    print(f"Activos dados de baja por daño:")
+    for asset in damaged_assets:
+      print(f"{asset['CodCampus']}")
   elif option == "4":
     pass
   elif option == "5":

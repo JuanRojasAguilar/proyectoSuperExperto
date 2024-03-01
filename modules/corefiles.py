@@ -3,7 +3,6 @@ import sys
 import json
 from tabulate import tabulate
 
-
 # Este es el layout de los menús, imprime el titulo y el menu
 def menus_layout(title:str,menu:list):
   print(title)
@@ -43,6 +42,8 @@ def read_productos_csv():
         final_data.update({item[0]: dicc})
     return final_data
 
+
+#Leer json file
 def check_file():
     data = read_productos_csv()
     try:
@@ -59,9 +60,7 @@ def check_file():
 
 
 #crea archivo json de people
-
 personal={}
-
 def json_personal(personal):
   with open('data/personal.json',"w") as pe:
     json.dump(personal,pe, indent=4)
@@ -75,11 +74,15 @@ def json_zone(zone):
 
 
 #crea un archivo json de activos
-
-
-def json_active(assets):
+assets={}
+def json_assets(assets):
     with open('data/assets.json',"w") as ac:
         json.dump(assets,ac, indent=4)
+#para los activos hay 4 estador 0 no asignado 1 asignado 2 dado de baja por daño 3 en repacion y/o garantia
+#Creo una funcion donde filtro el estado deseado de los activos
+damaged_assets = [asset for asset in assets.values() if asset['Estado'] == 2]
+
+
 
 asset ={
   'CodTransaccion': '',
