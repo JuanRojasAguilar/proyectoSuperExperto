@@ -55,9 +55,9 @@ def check_file():
 
 def search_asset(data):
   res = {}
-  searchedAsset = input()
-  for val in data.values():
-    if val["codebar"] == searchedAsset.encode("utf-8"):
+  searchedAsset = input("Ingrese el codebar del producto: ")
+  for key, val in data.items():
+    if key == searchedAsset.encode("utf-8"):
       res = val
       break
     else:
