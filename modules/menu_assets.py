@@ -8,12 +8,19 @@ from tabulate import tabulate
 from modules.corefiles import clear_screen, menus_layout, pause_screen
 
 products_file = "productos_digitados.csv"
-
-
+def check_file():
+    if os.path.isfile("data/actives.json"):
+      with open ("data/actives.json", "r") as file:
+        return json.load(file)
+    else:
+      with open("data/actives.json", "w", encoding="utf-8") as file:
+        data = read_productos_csv()
+        json.dump(data, file, indent=2, ensure_ascii=False)
+        return data
 # Cargar el archivo csv
 def read_productos_csv():
   data = []
-  final_data = {}
+  clean_dict = {}
   with open("data/" + products_file, "r", encoding="utf-8") as file:
     archive = csv.reader(file)
     for rows in archive:
@@ -34,34 +41,20 @@ def read_productos_csv():
             "Proveedor": item[7],
             "EmpresaResponsable": item[8],
             "Estado": item[9],
-            "codebar": item[10]
         }
-        final_data.update({item[3]: dicc})
-    final_data.pop("CodCampus")
-    return final_data
-
-
-def check_file():
-  data = read_productos_csv()
-  try:
-    if os.path.isfile("data/actives.json"):
-      return
-    else:
-      with open("data/actives.json", "w", encoding="utf-8") as file:
-        json.dump(data, file, indent=2, ensure_ascii=False)
-        file.close()
-  except:
-    sys.exit("Problemitas")
+        clean_dict.update({item[10]: dicc})
+    clean_dict.pop("codebar")
+    return clean_dict
 
 def search_asset(data):
   res = {}
   searchedAsset = input("Ingrese el codebar del producto: ")
   for key, val in data.items():
-    if key == searchedAsset.encode("utf-8"):
+    if key == searchedAsset:
       res = val
       break
     else:
-      res = False
+      res = {"No hay un producto con ese nombre"}
   return res
 
 
@@ -72,14 +65,16 @@ def show_search_result(data):
 
 
 def update(data):
-  with open("data/actives.json", "w") as file:
-    json.dump(data, file, indent=2, ensure_ascii=False)
-    file.close()
-
+  asset = search_asset(data)
+  for value in asset.values():
+    cambio = input(f"Por favor, ingrese el nuevo valor de {value}: ")
+    value = cambio
+  print(asset)
 
 def edit(data):
   res = search_asset(data)
   print(res)
+  pause_screen()
 
 
 def delete(data):
@@ -93,8 +88,8 @@ def delete(data):
 
 
 def menu_assets():
-  data = read_productos_csv()
-  check_file()
+  data = check_file()
+   
   title = """
   +++++++++++++++++
   +  MENU ACTIVOS +

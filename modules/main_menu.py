@@ -1,8 +1,4 @@
 import sys
-from modules.corefiles import clear_screen, menus_layout, check_file,json_active,json_personal,json_zone
-import modules.menu_assets as menu_assets
-import modules.menu_personal as menu_personal
-import modules.menu_zone as menu_zone
 
 from modules.corefiles import menus_layout, clear_screen
 import modules.menu_assets as menu_assets
@@ -45,17 +41,7 @@ def main_menu():
     wrapper(menu_asset_movement.menu_asset_movement)
   elif option == "7":
     
-    
-    check_file()
     sys.exit("Hasta pronto!")
   else:
     main_menu()
-
-
-
-
-
-
-
-
 
