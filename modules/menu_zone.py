@@ -1,9 +1,28 @@
 
-from modules.corefiles import clear_screen, menus_layout,json_zone,zone
+from modules.corefiles import clear_screen, menus_layout,json_zone, check_json
 
 import sys
 
+
+def add_zone():
+  try:
+    number=int(input('numero de zona:\n>>'))
+    NameZone=input('ingrese el nombre de la Zona:\n>>')
+    Capacidad=int(input(f'ingrese la Capacidad de {NameZone}:\n>>'))
+    zones={
+    'number':number,
+    'NameZone': NameZone,
+    'Capacidad': Capacidad,
+    }
+    zone.update({number:zones})
+    json_zone(zone)
+
+  except ValueError: 
+    print('datos invalidos')
+    add_zone()
+  
 def menu_zone():
+  check_json("zones.json", {})
   title = """
   ++++++++++++++++
   +  MENU ZONAS  +
@@ -25,24 +44,3 @@ def menu_zone():
   else:
     menu_zone()
 
-def add_zone():
-  try:
-    number=int(input('numero de zona:\n>>'))
-    NameZone=input('ingrese el nombre de la Zona:\n>>')
-    Capacidad=int(input(f'ingrese la Capacidad de {NameZone}:\n>>'))
-    zones={
-    'number':number,
-    'NameZone': NameZone,
-    'Capacidad': Capacidad,
-    
-    }
-    zone.update({number:zones})
-    json_zone(zone)
-
-  except ValueError: 
-    print('datos invalidos')
-    add_zone()
-    
-          
-  
-  

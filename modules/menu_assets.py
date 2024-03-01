@@ -30,6 +30,18 @@ def read_productos_csv():
         if clean_row[0] != "":
           data.append(clean_row)
       for item in data:
+        tipo = ""
+        if item[5].upper().contains("CPU"):
+          tipo = "CPU"
+        elif item[5].upper().contains("MONITOR"):
+          tipo = "MON"
+        elif item[5].upper().contains("MOUSE"):
+          tipo = "MO"
+        elif item[5].upper().contains("TECLADO"):
+          tipo = "TE"
+        else:
+          tipo = "MISC"
+
         dicc = {
             "NroItem": item[0],
             "CodTransaccion": item[1],
@@ -37,6 +49,7 @@ def read_productos_csv():
             "CodCampus": item[3],
             "NroFormulario": item[4],
             "Nombre": item[5],
+            "tipo": tipo,
             "Ubicacion": item[6],
             "Proveedor": item[7],
             "EmpresaResponsable": item[8],

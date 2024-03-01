@@ -27,6 +27,14 @@ def json_personal(personal):
   with open('data/personal.json',"w") as pe:
     json.dump(personal,pe, indent=4)
 
+# Funcion para revisar si existe un archivo y de no existir, crearlo
+def check_json(archivo: str, data):
+  if os.path.isfile(archivo):
+    with open(archivo, "r") as file:
+      return json.load(file)
+  else:
+    with open(archivo, "w") as file:
+      json.dump(data, file, indent=2)
 
 #crea un archivo json de zonas
 zone={}
