@@ -1,5 +1,5 @@
 
-from modules.corefiles import menus_layout, assets, asset, damaged_assets, tabulate
+from modules.corefiles import menus_layout, assets,  damaged_assets
 
 import sys
 

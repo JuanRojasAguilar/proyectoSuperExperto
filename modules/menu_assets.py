@@ -31,13 +31,13 @@ def read_productos_csv():
           data.append(clean_row)
       for item in data:
         tipo = ""
-        if item[5].upper().contains("CPU"):
+        if "CPU" in item[5].upper():
           tipo = "CPU"
-        elif item[5].upper().contains("MONITOR"):
+        elif "MONITOR" in item[5].upper():
           tipo = "MON"
-        elif item[5].upper().contains("MOUSE"):
+        elif "MOUSE" in item[5].upper():
           tipo = "MO"
-        elif item[5].upper().contains("TECLADO"):
+        elif "TECLADO" in item[5].upper():
           tipo = "TE"
         else:
           tipo = "MISC"

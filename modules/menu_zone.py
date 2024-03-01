@@ -1,9 +1,6 @@
 
 from modules.corefiles import clear_screen, menus_layout,json_zone, check_json
 
-import sys
-
-
 def add_zone():
   try:
     number=int(input('numero de zona:\n>>'))
