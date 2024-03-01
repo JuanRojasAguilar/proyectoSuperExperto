@@ -37,7 +37,6 @@ def check_json(archivo: str, data):
       json.dump(data, file, indent=2)
 
 #crea un archivo json de zonas
-zone={}
 def json_zone(zone):
     with open('data/zone.json',"w") as zo:
         json.dump(zone,zo, indent=4)

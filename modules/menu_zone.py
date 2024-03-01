@@ -1,25 +1,31 @@
-
+import json
 from modules.corefiles import clear_screen, menus_layout,json_zone, check_json
+
+zones = {}
+
+def refresh_json(data):
+  with open("data/zones.json", "w+") as file:
+    json.dump(data, file, indent=2)
 
 def add_zone():
   try:
-    number=int(input('numero de zona:\n>>'))
-    NameZone=input('ingrese el nombre de la Zona:\n>>')
-    Capacidad=int(input(f'ingrese la Capacidad de {NameZone}:\n>>'))
-    zones={
-    'number':number,
-    'NameZone': NameZone,
-    'Capacidad': Capacidad,
+    number= input('numero de zona: ')
+    nameZone=input('ingrese el nombre de la Zona: ')
+    capacidad=int(input(f'ingrese la Capacidad de {nameZone}: '))
+    zone={
+      'Number':number,
+      'NameZone': nameZone,
+      'Capacidad': capacidad,
+      'Assets': []
     }
-    zone.update({number:zones})
-    json_zone(zone)
-
+    zones.update({number:zone})
+    refresh_json(zones)
   except ValueError: 
     print('datos invalidos')
     add_zone()
-  
+
 def menu_zone():
-  check_json("zones.json", {})
+  check_json("data/zones.json", {})
   title = """
   ++++++++++++++++
   +  MENU ZONAS  +
