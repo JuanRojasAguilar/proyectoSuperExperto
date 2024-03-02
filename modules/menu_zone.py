@@ -1,5 +1,5 @@
 import json
-from modules.corefiles import clear_screen, menus_layout,json_zone, check_json
+from modules.corefiles import clear_screen, menus_layout, check_json, pause_screen
 
 zones = {}
 
@@ -20,6 +20,9 @@ def add_zone():
     }
     zones.update({number:zone})
     refresh_json(zones)
+    print(f"Se ha creado {zone["NameZone"]}, con una capacidad de {zone["Capacidad"]}")
+    pause_screen()
+
   except ValueError: 
     print('datos invalidos')
     add_zone()
