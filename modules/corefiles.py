@@ -35,6 +35,7 @@ def check_json(archivo: str, data):
   else:
     with open(archivo, "w") as file:
       json.dump(data, file, indent=2)
+      return json.load(file)
 
 #crea un archivo json de zonas
 def json_zone(zone):
