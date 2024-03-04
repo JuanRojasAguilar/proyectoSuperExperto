@@ -131,6 +131,7 @@ def add_asset(data):
   data.update({f"*{codCampus}*":dicc})
   print(dicc)
   update_json("assets.json", data)
+  print(f"{name} se ha creado con exito con el código {codCampus}.")
   pause_screen()
 
 def delete(data):
