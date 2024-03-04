@@ -12,7 +12,7 @@ def menu_asset_movement():
   menus_layout(title, menu)
   option = input("\n>> ")
   if option == "1":
-    pass
+    return_asset(data_assets)
   elif option == "2":
     delete(data_assets)
   elif option == "3":
@@ -23,4 +23,15 @@ def menu_asset_movement():
     pass
   else:
     menu_asset_movement()
-    
+   
+
+def return_asset(asset_data):
+  asset = search_asset(asset_data)
+  zones = check_json("data/zones.json", {})
+  for zone in zones:
+    if asset in zone["assets"]:
+      zone["assets"].pop(asset)
+  asset["Ubicacion"] = ""
+  asset["Estado"] = 0
+  print(asset)
+  pause_screen()

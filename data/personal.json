@@ -1,24 +1,14 @@
 {
-  "1": {
-    "id": "1",
-    "name": "mario",
-    "email": "marito",
+  "333": {
+    "id": "333",
+    "name": "Karol",
+    "email": "666",
     "phone": {
-      "movil": 3333,
-      "house": 22222,
-      "personal": 1111,
-      "oficina": 4444
-    }
-  },
-  "kjfdgkj": {
-    "id": "kjfdgkj",
-    "name": "kjghnfdkjg",
-    "email": "",
-    "phone": {
-      "movil": 54854,
-      "house": 4545456,
-      "personal": 64546,
-      "oficina": 546546
-    }
+      "movil": 555,
+      "house": 444,
+      "personal": 222,
+      "oficina": 111
+    },
+    "assets": []
   }
 }

@@ -47,13 +47,16 @@ def add_people(data):
         'house': house,
         'personal': personal,
         'oficina': oficina,
-      }
+      },
+      'assets': []
     }
     data.update({id: people})
     update_json("personal.json",data)
     print(f"Se ha agregado {people['name']}, de Id: {people['id']}")
+    pause_screen()
   except ValueError:
     print('datos invalidos')
+    pause_screen()
     add_people(data)
 
 def search_personal(data):

@@ -149,11 +149,11 @@ def add_asset(data):
 
 def delete(data):
   res = search_asset(data)
-  name = res.get("Nombre").strip()
   id = res.get("CodCampus")
-  data.pop(res["CodCampus"])
+  codebar = f"*{id}*"
+  data.pop(codebar)
   update_json("assets.json",data)
-  print(f"El objeto {name} de código {id} ha sido eliminado")
+  print(f"El objeto de código {id} ha sido eliminado")
   pause_screen()
 
 
