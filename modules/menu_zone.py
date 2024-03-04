@@ -36,6 +36,7 @@ def search(data):
   res = search_zone(data)
   if res != {}:
     print(res)
+    pause_screen()
   else:
     pass
 
@@ -44,7 +45,7 @@ def delete_zone(data):
   del data[zone["number"]]
   update_json("zones.json",data)
   input(f"Se ha eliminado {zone['nameZone']}")
-  
+
 def edit_zone(data):
   print(tabulate(data.values(), headers="keys", tablefmt="grid"))
   zone = search_zone(data)

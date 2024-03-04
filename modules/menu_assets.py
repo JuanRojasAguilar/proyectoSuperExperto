@@ -48,11 +48,13 @@ def read_productos_csv():
             "NroFormulario": item[4],
             "Nombre": item[5],
             "tipo": tipo,
+            "categoria": "Equipo de computo",
             "Ubicacion": item[6],
             "Proveedor": item[7],
             "EmpresaResponsable": item[8],
             "Estado": item[9],
         }
+        
         clean_dict.update({item[10]: dicc})
     clean_dict.pop("codebar")
     return clean_dict
@@ -87,6 +89,7 @@ def add_asset(data):
   empresa = input("Ingrese la empresa responsable: ")
   tipo = ""
   codCampus = ""
+  categoria = input("Qué tipo de dispositivo es? ")
   def counter(data, query):
     counterCount = 0
     for key in data.keys():
@@ -133,15 +136,15 @@ def add_asset(data):
     "NroFormulario": formulario,
     "Nombre": name,
     "tipo": tipo,
+    "categoria": categoria,
     "Ubicacion": "",
     "Proveedor": prov,
     "EmpresaResponsable": empresa,
     "Estado": 0,
   }
   data.update({f"*{codCampus}*":dicc})
-  print(dicc)
   update_json("assets.json", data)
-  print(f"{name} se ha creado con exito con el código {codCampus}.")
+  print(f"{name} se ha creado con exito con el código {codCampus}. \nPara asignar vaya al menu de asignaciones.")
   pause_screen()
 
 def delete(data):
