@@ -21,12 +21,6 @@ def pause_screen():
   else:
     os.system("pause")
 
-#crea archivo json de people
-personal={}
-def json_personal(personal):
-  with open('data/personal.json',"w") as pe:
-    json.dump(personal,pe, indent=4)
-
 # Funcion para revisar si existe un archivo y de no existir, crearlo
 def check_json(archivo: str, data):
   if os.path.isfile(archivo):
@@ -35,13 +29,11 @@ def check_json(archivo: str, data):
   else:
     with open(archivo, "w") as file:
       json.dump(data, file, indent=2)
-      return json.load(file)
+      return data
 
-#crea un archivo json de zonas
-def json_zone(zone):
-    with open('data/zone.json',"w") as zo:
-        json.dump(zone,zo, indent=4)
-
+def update_json(archivo, data):
+  with open("data/"+archivo, "w+") as file:
+    json.dump(data, file, indent=2, ensure_ascii=False)
 
 #crea un archivo json de activos
 assets={}
@@ -52,18 +44,5 @@ def json_assets(assets):
 #Creo una funcion donde filtro el estado deseado de los activos
 damaged_assets = [asset for asset in assets.values() if asset['Estado'] == 2]
 #filtro categorias dentro de activos
-# assets_category = [asset for asset in assets.values() if asset['Categoria'] == categoria_deseada]
-# Saco las categorias para listarlas
-asset_categories = [asset['Categoria'] for asset in assets.values()]
-## Crea una lista de tuplas que contenga cada activo y su asignación de zona correspondiente
-asset_zone = [(asset, zone.get(asset)) for asset in assets.keys() if asset in zone]
-# Crea una lista de las claves 'CodTransaccion' de cada activo
 campus_codes= [asset['CodCampus'] for asset in assets.values()]
-
-
-
-
-
-
-
 

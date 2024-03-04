@@ -1,0 +1,13 @@
+{
+  "1": {
+    "id": "1",
+    "name": "mario",
+    "email": "marito",
+    "phone": {
+      "movil": 3333,
+      "house": 22222,
+      "personal": 1111,
+      "oficina": 4444
+    }
+  }
+}

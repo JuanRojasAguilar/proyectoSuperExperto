@@ -1,10 +1,5 @@
-import json
-from modules.corefiles import clear_screen, menus_layout, check_json, pause_screen
+from modules.corefiles import clear_screen, menus_layout, check_json, pause_screen, update_json
 from tabulate import tabulate
-
-def refresh_json(data):
-  with open("data/zones.json", "w+") as file:
-    json.dump(data, file, indent=2)
 
 def add_zone(data):
   try:
@@ -17,14 +12,14 @@ def add_zone(data):
     if (number or nameZone or capacidad) == "":
       pass
     zone={
-      'Number':number,
-      'NameZone': nameZone,
-      'Capacidad': capacidad,
-      'Assets': []
+      'number':number,
+      'nameZone': nameZone,
+      'capacidad': capacidad,
+      'assets': []
     }
     data.update({number:zone})
-    refresh_json(data)
-    print(f"Se ha creado {zone['NameZone']}, con una capacidad de {zone['Capacidad']}")
+    update_json("zones.json",data)
+    print(f"Se ha creado {zone['nameZone']}, con una capacidad de {zone['capacidad']}")
     pause_screen()
   except ValueError: 
     print('datos invalidos')
@@ -46,18 +41,18 @@ def search(data):
 
 def delete_zone(data):
   zone = search_zone(data)
-  del data[zone["Number"]]
-  refresh_json(data)
+  del data[zone["number"]]
+  update_json("zones.json",data)
+  input(f"Se ha eliminado {zone['nameZone']}")
   
 def edit_zone(data):
   print(tabulate(data.values(), headers="keys", tablefmt="grid"))
   zone = search_zone(data)
   print(zone)
-  for key,value in zone.items():
-    if key == ("Number" or "Assets"):
-      continue
-    else:
-      input(f"Ingrese el nuevo valor de {key} ({value}): ")
+  zone["nameZone"] = input("Ingrese el nuevo nombre de la zona: ")
+  zone["capacidad"] = input("Ingrese la nueva capacidad de la zona: ")
+  print(zone)
+  pause_screen()
 
 def menu_zone():
   clear_screen()

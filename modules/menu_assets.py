@@ -1,19 +1,17 @@
 import csv
 import json
 import os
-import sys
 
 from tabulate import tabulate
-
-from modules.corefiles import clear_screen, menus_layout, pause_screen
+from modules.corefiles import clear_screen, menus_layout, pause_screen, update_json
 
 products_file = "productos_digitados.csv"
 def check_file():
-    if os.path.isfile("data/actives.json"):
-      with open ("data/actives.json", "r") as file:
+    if os.path.isfile("data/assets.json"):
+      with open ("data/assets.json", "r") as file:
         return json.load(file)
     else:
-      with open("data/actives.json", "w", encoding="utf-8") as file:
+      with open("data/assets.json", "w", encoding="utf-8") as file:
         data = read_productos_csv()
         json.dump(data, file, indent=2, ensure_ascii=False)
         return data
@@ -60,42 +58,87 @@ def read_productos_csv():
     return clean_dict
 
 def search_asset(data):
-  res = {}
   searchedAsset = input("Ingrese el codebar del producto: ")
-  for key, val in data.items():
-    if key == searchedAsset:
-      res = val
-      break
-    else:
-      res = {"No hay un producto con ese nombre"}
-  return res
-
+  if searchedAsset in data:
+    return data[searchedAsset]
+  else:
+    input("No hay un producto con ese nombre")
+    return {}
 
 def show_search_result(data):
   res = search_asset(data)
   print(tabulate([res], headers="keys", tablefmt="grid"))
   input("\nPresione ENTER para volver...")
 
-
 def update(data):
   asset = search_asset(data)
-  for value in asset.values():
-    cambio = input(f"Por favor, ingrese el nuevo valor de {value}: ")
-    value = cambio
+  for key, value in list(asset.items())[5::]:
+    print(list(asset.items()))
+    asset[key] = input(f"Por favor, ingrese el nuevo valor de {key} ({value[0:10]}): ", )
   print(asset)
+  update_json("assets.json", data)
 
-def edit(data):
-  res = search_asset(data)
-  print(res)
+def add_asset(data):
+  name = input("Ingrese el nombre del producto: ")
+  codTrans = input("Ingrese el codigo de transaccion del producto: ")
+  serial = input("Ingrese el serial del producto: ")
+  formulario = input("Ingrese el numero de formulario que tiene: ")
+  prov = input("Ingrese el proveedor: ")
+  empresa = input("Ingrese la empresa responsable: ")
+  tipo = ""
+  codCampus = ""
+  def counter(data, query):
+    counterCount = 0
+    for key in data.keys():
+      if query in key:
+        counterCount += 1
+    return counterCount
+
+  if "CPU" in name.upper():
+    accumulated = str(counter(data,"CPU")).zfill(3)
+    tipo = "CPU"
+    codCampus = f"CPU{accumulated}"
+  elif "MONITOR" in name.upper():
+    accumulated = str(counter(data,"MON")).zfill(3)
+    tipo = "MON"
+    codCampus = f"MON{accumulated}"
+  elif "MOUSE" in name.upper():
+    accumulated = str(counter(data,"MO")).zfill(3)
+    tipo = "MO"
+    codCampus = f"MO{accumulated}"
+  elif "TECLADO" in name.upper():
+    accumulated = str(counter(data,"TE")).zfill(3)
+    tipo = "TE"
+    codCampus = f"TE{accumulated}"
+  else:
+    accumulated = str(counter(data,"MISC")).zfill(3)
+    tipo = "MISC"
+    codCampus = f"MISC{accumulated}"
+
+  dicc = {
+    "NroItem": len(data)+1,
+    "CodTransaccion": codTrans,
+    "NroSerial": serial,
+    "CodCampus": codCampus,
+    "NroFormulario": formulario,
+    "Nombre": name,
+    "tipo": tipo,
+    "Ubicacion": "",
+    "Proveedor": prov,
+    "EmpresaResponsable": empresa,
+    "Estado": 0,
+  }
+  data.update({f"*{codCampus}*":dicc})
+  print(dicc)
+  update_json("assets.json", data)
   pause_screen()
-
 
 def delete(data):
   res = search_asset(data)
   name = res.get("Nombre").strip()
   id = res.get("CodCampus")
   data.pop(res["CodCampus"])
-  update(data)
+  update_json("assets.json",data)
   print(f"El objeto {name} de código {id} ha sido eliminado")
   pause_screen()
 
@@ -113,10 +156,11 @@ def menu_assets():
   menus_layout(title, menu)
   option = input("\n>> ")
   if option == "1":
-    pause_screen()
+    clear_screen()
+    add_asset(data)
   elif option == "2":
     clear_screen()
-    edit(data)
+    update(data)
   elif option == "3":
     clear_screen()
     delete(data)

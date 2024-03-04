@@ -1,68 +1,8 @@
 {
   "1": {
-    "Number": "1",
-    "NameZone": "Houston",
-    "Capacidad": 9,
-    "Assets": []
-  },
-  "2": {
-    "Number": "2",
-    "NameZone": "aaaa",
-    "Capacidad": 2,
-    "Assets": []
-  },
-  "3": {
-    "Number": "3",
-    "NameZone": "bbbb",
-    "Capacidad": 3,
-    "Assets": []
-  },
-  "4": {
-    "Number": "4",
-    "NameZone": "aaaaa",
-    "Capacidad": 4,
-    "Assets": []
-  },
-  "5": {
-    "Number": "5",
-    "NameZone": "aaaa",
-    "Capacidad": 5,
-    "Assets": []
-  },
-  "6": {
-    "Number": "1",
-    "NameZone": "Houston",
-    "Capacidad": 9,
-    "Assets": []
-  },
-  "7": {
-    "Number": "2",
-    "NameZone": "aaaa",
-    "Capacidad": 2,
-    "Assets": []
-  },
-  "8": {
-    "Number": "3",
-    "NameZone": "bbbb",
-    "Capacidad": 3,
-    "Assets": []
-  },
-  "9": {
-    "Number": "4",
-    "NameZone": "aaaaa",
-    "Capacidad": 4,
-    "Assets": []
-  },
-  "10": {
-    "Number": "5",
-    "NameZone": "aaaa",
-    "Capacidad": 5,
-    "Assets": []
-  },
-  "11": {
-    "Number": "5",
-    "NameZone": "aaaa",
-    "Capacidad": 5,
-    "Assets": []
+    "number": "1",
+    "nameZone": "Sputnik",
+    "capacidad": 10,
+    "assets": []
   }
 }
