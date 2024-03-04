@@ -98,22 +98,32 @@ def add_asset(data):
     accumulated = str(counter(data,"CPU")).zfill(3)
     tipo = "CPU"
     codCampus = f"CPU{accumulated}"
+    if codCampus in data.keys():
+      accumulated = str(counter(data,"CPU") + 1).zfill(3)
   elif "MONITOR" in name.upper():
     accumulated = str(counter(data,"MON")).zfill(3)
     tipo = "MON"
     codCampus = f"MON{accumulated}"
+    if codCampus in data.keys():
+      accumulated = str(counter(data,"MON") + 1).zfill(3)
   elif "MOUSE" in name.upper():
     accumulated = str(counter(data,"MO")).zfill(3)
     tipo = "MO"
     codCampus = f"MO{accumulated}"
+    if codCampus in data.keys():
+      accumulated = str(counter(data,"MO") + 1).zfill(3)
   elif "TECLADO" in name.upper():
     accumulated = str(counter(data,"TE")).zfill(3)
     tipo = "TE"
     codCampus = f"TE{accumulated}"
+    if codCampus in data.keys():
+      accumulated = str(counter(data,"TE") + 1).zfill(3)
   else:
     accumulated = str(counter(data,"MISC")).zfill(3)
     tipo = "MISC"
     codCampus = f"MISC{accumulated}"
+    if codCampus in data.keys():
+      accumulated = str(counter(data,"MISC") + 1).zfill(3)
 
   dicc = {
     "NroItem": len(data)+1,
