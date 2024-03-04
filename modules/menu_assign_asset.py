@@ -25,6 +25,29 @@ def menu_assign_asset():
   else:
     menu_assign_asset()
 
+def assing(assets, zones):
+  asset = search_asset(assets)
+  ubicacion = input("Donde se encuentra el dispositivo?").upper()
+  for zone in zones.values():
+    if asset["CodCampus"] in zone["assets"] and zone["nameZone"] != ubicacion:
+      zone["assets"].remove(asset["CodCampus"])
+    if zone["nameZone"].upper() == ubicacion:
+      if asset not in zone["assets"]:
+        zone["assets"].append(asset["CodCampus"])
+        asset["Estado"] = 1
+        asset["Ubicacion"] = zone
+        update_json("zones.json", zones)
+        print(f"Se ha asignado {asset['Nombre']} a {zone['nameZone']}")
+        pause_screen()
+      else:
+        print("Ese asset ya se encuentra en esa zona")
+        pause_screen()
+        break
+    else:
+      print("No se encuentra esa Zona")
+      pause_screen()
+      break
+
 def create_assing(assets, zones):
   clear_screen()
   menu = [["1.", "Asignar"],["2", "Mandar a mantenimiento"], ["3.","Salir"]]
@@ -32,21 +55,7 @@ def create_assing(assets, zones):
   option = input("\n>> ")
   clear_screen()
   if option == "1":
-    asset = search_asset(assets)
-    ubicacion = input("Donde se encuentra el dispositivo?").upper()
-    for zone in zones.values():
-      if zone["nameZone"].upper() == ubicacion:
-        if asset not in zone["assets"]:
-          zone["assets"].append(asset["CodCampus"])
-          asset["Estado"] = 1
-          asset["Ubicacion"] = zone
-          update_json("zones.json", zones)
-        else:
-          print("Ese asset ya se encuentra en esa zona")
-          pause_screen()
-      else:
-        print("No se encuentra esa Zona")
-        pause_screen()
+    assing(assets,zones)
   if option == "2":
     asset = search_asset(assets)
     asset["Estado"] = 2
@@ -55,3 +64,5 @@ def create_assing(assets, zones):
     pass
   else:
     create_assing(assets, zones)
+
+
