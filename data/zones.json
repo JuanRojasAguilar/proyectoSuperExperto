@@ -1,0 +1,18 @@
+{
+  "1": {
+    "number": "1",
+    "nameZone": "Sputnik",
+    "capacidad": 40,
+    "assets": []
+  },
+  "2": {
+    "number": "2",
+    "nameZone": "Houston",
+    "capacidad": 12,
+    "assets": [
+      "MO000",
+      "MO000",
+      "MO000"
+    ]
+  }
+}

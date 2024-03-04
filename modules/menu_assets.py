@@ -54,6 +54,7 @@ def read_productos_csv():
             "EmpresaResponsable": item[8],
             "Estado": item[9],
         }
+        
         clean_dict.update({item[10]: dicc})
     clean_dict.pop("codebar")
     return clean_dict
