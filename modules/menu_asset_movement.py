@@ -1,10 +1,8 @@
+from modules.corefiles import menus_layout, check_json, pause_screen
+from modules.menu_assets import check_file, search_asset, delete
 
-from modules.corefiles import clear_screen, menus_layout
-
-from modules.corefiles import menus_layout
-
-import sys
 def menu_asset_movement():
+  data_assets = check_file()
   title = """
   ++++++++++++++++++++++++++++++++
   +  MENU MOVIMIENTO DE ACTIVOS  +
@@ -16,7 +14,7 @@ def menu_asset_movement():
   if option == "1":
     pass
   elif option == "2":
-    pass
+    delete(data_assets)
   elif option == "3":
     pass
   elif option == "4":

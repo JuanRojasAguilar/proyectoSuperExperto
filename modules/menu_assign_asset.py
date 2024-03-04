@@ -2,7 +2,7 @@ from enum import Enum
 
 from tabulate import tabulate
 
-from modules.corefiles import clear_screen,  menus_layout, pause_screen, check_json, update_json
+from modules.corefiles import menus_layout, pause_screen, check_json, update_json
 from modules.menu_assets import check_file, search_asset
 
 def menu_assign_asset():
