@@ -148,10 +148,10 @@
     "Nombre": "Teclado - Bodg50-9051-900-0017 GMR ESC   ",
     "tipo": "TE",
     "categoria": "Equipo de computo",
-    "Ubicacion": "Salón Sputnik",
+    "Ubicacion": "Sputnik",
     "Proveedor": "Compumax Computer ",
     "EmpresaResponsable": "Campuslands",
-    "Estado": "0"
+    "Estado": "1"
   },
   "*MO002*": {
     "NroItem": "62",

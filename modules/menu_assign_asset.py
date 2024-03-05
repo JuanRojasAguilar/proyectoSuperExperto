@@ -56,19 +56,26 @@ def assing(assets, zones):
         update_json("zones.json", zones)
         update_json("assets.json", assets)
         update_json("personal.json", personal)
+        mov_json(asset["Nombre"],zone["nameZone"])
         print(f"Se ha asignado {asset['Nombre']} a {zone['nameZone']} y a {searched_person['name']}")
         print(person)
         pause_screen()
       elif asset not in zone["assets"] and asset["Nombre"] in searched_person["assets"]:
         zone["assets"].append(asset["CodCampus"])
-        asset["Estado"] = 1
+        asset["Estado"] = "1"
         asset["Ubicacion"] = zone["nameZone"]
         update_json("zones.json", zones)
         update_json("assets.json", assets)
+        mov_json(asset["Nombre"],zone["nameZone"])
         print(f"Se ha asignado {asset['Nombre']} a {zone['nameZone']}, ya se encontraba en {searched_person['name']}")
         pause_screen()
       else:
-        print("Ese asset ya se encuentra en esa zona")
+        searched_person["assets"].append(asset["CodCampus"])
+        asset["Estado"] = "1"
+        update_json("assets.json", assets)
+        update_json("personal.json", personal)
+        mov_json(asset["Nombre"],zone["nameZone"])
+        print(f"Ese asset ya se encuentra en esa zona, sin embargo fue añadido a {searched_person['name']}")
         pause_screen()
         break
     create_assings_json(zones)
@@ -78,6 +85,12 @@ def create_assings_json(zones):
   for zone in zones.values():
     data.update({zone["nameZone"]: zone["assets"]})
   with open("data/zones_assing.json", "w+") as file:
+    json.dump(data, file, indent=2)
+
+def mov_json(asset, zone):
+  data = {}
+  data.update({asset:zone})
+  with open("data/movements.json", "w+") as file:
     json.dump(data, file, indent=2)
 
 def search_assing(zones):
