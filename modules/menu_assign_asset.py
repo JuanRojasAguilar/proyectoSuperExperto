@@ -15,9 +15,15 @@ def menu_assign_asset():
   menus_layout(title, menu)
   option = input("\n>> ")
   if option == "1":
-    assing(data_assets,data_zones)
+    try:
+      assing(data_assets,data_zones)
+    except:
+      pass
   elif option == "2":
-    search_assing(data_zones)
+    try:
+      search_assing(data_zones)
+    except:
+      pass
   elif option == "3":
     pass
   else:
