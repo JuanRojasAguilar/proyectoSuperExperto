@@ -7,9 +7,9 @@ def menu_assign_asset():
   data_zones = check_json("data/zones.json", {})
   data_assets = check_file()
   title = """
-  ++++++++++++++++++++++++++++++++
-  +  MENU ASIGNACION DE ACTIVOS  +
-  ++++++++++++++++++++++++++++++++
+            ++++++++++++++++++++++++++++++++
+            +  MENU ASIGNACION DE ACTIVOS  +
+            ++++++++++++++++++++++++++++++++
   """
   menu = [["1.", "Crear asignación"],["2.", "Buscar asignación"],["3.", "Regresar al menu principal"]]
   menus_layout(title, menu)

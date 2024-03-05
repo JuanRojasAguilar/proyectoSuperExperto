@@ -20,9 +20,9 @@ def main_menu():
     main_menu()
 
   title = """
-    ++++++++++++++++++++++++++++++++
-    + SISTEMA DE GESTION DE DATOS  +
-    ++++++++++++++++++++++++++++++++
+            ++++++++++++++++++++++++++++++++
+            + SISTEMA DE GESTION DE DATOS  +
+            ++++++++++++++++++++++++++++++++
   """
   menu = [["1", "Menu Producto"],["2.", "Menu personas"], ["3.", "Menu zonas"], ["4.", "Asignacion de activos"], ["5.", "Reportes"], ["6.", "Movimiento de activos"], ["7.", "Salir"]]
   menus_layout(title, menu) # Así se hace para que imprima el titulo y el menú

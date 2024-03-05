@@ -14,7 +14,7 @@ def clear_screen():
     os.system("clear")
   else:
     os.system("cls")
-
+#pausa la pantalla
 def pause_screen():
   if sys.platform == "linux" or sys.platform == "darwin":
     input("\n")

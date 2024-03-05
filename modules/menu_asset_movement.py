@@ -4,9 +4,9 @@ from modules.menu_assets import check_file, search_asset, delete
 def menu_asset_movement():
   data_assets = check_file()
   title = """
-  ++++++++++++++++++++++++++++++++
-  +  MENU MOVIMIENTO DE ACTIVOS  +
-  ++++++++++++++++++++++++++++++++
+            ++++++++++++++++++++++++++++++++
+            +  MENU MOVIMIENTO DE ACTIVOS  +
+            ++++++++++++++++++++++++++++++++
   """
   menu = [["1.", "Retorno de activo"],["2.", "Dar de baja activo"],["3.", "Cambiar asignacion de activo"],["4.", "Enviar a garantia de activo"],["5.", "Regresar al menu principal"]]
   menus_layout(title, menu)

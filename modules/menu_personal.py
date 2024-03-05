@@ -5,9 +5,9 @@ def menu_personal():
   clear_screen()
   personal = check_json("data/personal.json", {})
   title = """
-  +++++++++++++++++
-  + MENU PERSONAL +
-  +++++++++++++++++
+        +++++++++++++++++
+        + MENU PERSONAL +
+        +++++++++++++++++
   """
   menu = [["1.", "Agregar"], ["2.", "Editar"], ["3.", "Eliminar"],
           ["4.", "Buscar"], ["5.", "Regresar al menu principal"]]

@@ -59,9 +59,9 @@ def menu_zone():
   clear_screen()
   zones = check_json("data/zones.json", {})
   title = """
-  ++++++++++++++++
-  +  MENU ZONAS  +
-  ++++++++++++++++
+          ++++++++++++++++
+          +  MENU ZONAS  +
+          ++++++++++++++++
   """
   menu = [["1.", "Agregar"],["2.", "Editar"],["3.", "Eliminar"],["4.", "Buscar"],["5.", "Regresar al menu principal"]]
   menus_layout(title, menu)
