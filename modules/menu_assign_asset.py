@@ -76,7 +76,7 @@ def assing(assets, zones):
 def create_assings_json(zones):
   data = {}
   for zone in zones.values():
-    data.update(**data, {zone["nameZone"]: zone["assets"]})
+    data.update({zone["nameZone"]: zone["assets"]})
   with open("data/zones_assing.json", "w+") as file:
     json.dump(data, file, indent=2)
 
