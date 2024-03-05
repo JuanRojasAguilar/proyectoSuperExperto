@@ -211,13 +211,14 @@ def list_assing():
 def list_assing_zone():
   clear_screen()
   print("ASIGNACION DE ACTIVOS POR ZONAS")
-  data=check_json("data/movements.json", {})
+  data=check_json("data/zones.json", {})
   list_assings_zones=[]
   for key, value in data.items():
     code=key
-    zone=data[key]
-    sub_list=[code,zone,]
+    zone=data[key]["nameZone"]
+    assets=data[key]["assets"]
+    sub_list=[code,zone,assets]
     list_assings_zones.append(sub_list)
-  print(tabulate(list_assings_zones, headers=["ACTIVO","ZONA ASIGNADA"],tablefmt="fancy_grid"))
+  print(tabulate(list_assings_zones, headers=["CODE","ZONA","ACTIVOS ASIGNADOS"],tablefmt="fancy_grid"))
   
   pause_screen()
