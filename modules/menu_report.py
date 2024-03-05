@@ -14,6 +14,7 @@ def menu_report():
   option = input("\n>> ")
   if option == "1": 
     cf.list_Assets()
+    cf.clear_screen()
     menu_report()
   elif option == "2":
     cf.list_Category()
@@ -22,7 +23,8 @@ def menu_report():
     cf.list_Broken_Assets()
     menu_report()
   elif option == "4":
-    pass
+    cf.list_assing()
+    cf.list_assing_zone()
   elif option == "5":
     pass
   elif option == "6":

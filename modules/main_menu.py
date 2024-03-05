@@ -44,4 +44,5 @@ def main_menu():
     sys.exit("Hasta pronto!")
   else:
     main_menu()
+    clear_screen()
 

@@ -1,6 +1,5 @@
 from tabulate import tabulate
-from modules.corefiles import (clear_screen, menus_layout,
-                               pause_screen , check_json, update_json)
+from modules.corefiles import (clear_screen, menus_layout,pause_screen , check_json, update_json)
 
 def menu_personal():
   clear_screen()

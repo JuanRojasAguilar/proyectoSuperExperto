@@ -6886,5 +6886,19 @@
     "Proveedor": "Compumax Computer ",
     "EmpresaResponsable": "Campuslands",
     "Estado": "0"
+  },
+  "*MISC000*": {
+    "NroItem": 493,
+    "CodTransaccion": "g",
+    "NroSerial": "64645656",
+    "CodCampus": "MISC000",
+    "NroFormulario": "314",
+    "Nombre": "g",
+    "tipo": "MISC",
+    "categoria": "ok`kop",
+    "Ubicacion": "",
+    "Proveedor": "j´ñjñlk",
+    "EmpresaResponsable": "klñkl",
+    "Estado": 0
   }
 }

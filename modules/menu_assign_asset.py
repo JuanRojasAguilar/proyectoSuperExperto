@@ -1,6 +1,5 @@
 import json
-from modules.corefiles import (check_json, menus_layout, pause_screen,
-                               update_json)
+from modules.corefiles import (check_json, menus_layout, pause_screen,update_json)
 from modules.menu_assets import check_file, search_asset
 
 

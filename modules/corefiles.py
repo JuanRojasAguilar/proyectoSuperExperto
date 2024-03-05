@@ -44,6 +44,7 @@ def json_assets(assets):
         json.dump(assets,ac, indent=4)
 #lista todos los activos
 def list_Assets():
+  clear_screen()
   list=[]
   data = check_json("data/assets.json", {})
   for i in data:
@@ -161,7 +162,7 @@ def list_Category():
         pause_screen()
         clear_screen()
     elif op == "4":
-     break
+      break
 #lista los activos dados de baja por daño 
 def list_Broken_Assets():
   data=check_json("data/assets.json", {})
@@ -191,3 +192,32 @@ def list_Broken_Assets():
     print('aun no hay archivos')   
     pause_screen()
     clear_screen()
+#lista las asignaciones hechas a personas
+def list_assing():
+  clear_screen()
+  print("ASIGNACION DE ACTIVOS POR PERSONAS")
+  data=check_json("data/personal.json", {})
+  list_assings=[]
+  for key, value in data.items():
+    code=key
+    name=data[key]["name"]
+    assets=data[key]["assets"]
+    sub_list=[code,name,assets]
+    list_assings.append(sub_list)
+  print(tabulate(list_assings, headers=["CODIGO","PERSONA ASIGNADA","ACTIVOS"],tablefmt="fancy_grid"))
+  
+  pause_screen()
+
+def list_assing_zone():
+  clear_screen()
+  print("ASIGNACION DE ACTIVOS POR ZONAS")
+  data=check_json("data/movements.json", {})
+  list_assings_zones=[]
+  for key, value in data.items():
+    code=key
+    zone=data[key]
+    sub_list=[code,zone,]
+    list_assings_zones.append(sub_list)
+  print(tabulate(list_assings_zones, headers=["ACTIVO","ZONA ASIGNADA"],tablefmt="fancy_grid"))
+  
+  pause_screen()
