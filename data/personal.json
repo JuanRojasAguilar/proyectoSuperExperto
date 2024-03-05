@@ -1,14 +1,32 @@
 {
-  "333": {
-    "id": "333",
+  "1": {
+    "id": "1",
     "name": "Karol",
-    "email": "666",
+    "email": "kk",
+    "phone": {
+      "movil": 666,
+      "house": 555,
+      "personal": 444,
+      "oficina": 333
+    },
+    "assets": [
+      "TE000"
+    ]
+  },
+  "666": {
+    "id": "666",
+    "name": "Diana",
+    "email": "kk",
     "phone": {
       "movil": 555,
       "house": 444,
-      "personal": 222,
-      "oficina": 111
+      "personal": 333,
+      "oficina": 222
     },
-    "assets": []
+    "assets": [
+      "TE001",
+      "MO000",
+      "CPU000"
+    ]
   }
 }

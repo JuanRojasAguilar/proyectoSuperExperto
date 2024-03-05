@@ -1,9 +1,8 @@
-from enum import Enum
-
-from tabulate import tabulate
-
-from modules.corefiles import menus_layout, pause_screen, check_json, update_json
+import json
+from modules.corefiles import (check_json, menus_layout, pause_screen,
+                               update_json)
 from modules.menu_assets import check_file, search_asset
+
 
 def menu_assign_asset():
   data_zones = check_json("data/zones.json", {})
@@ -25,50 +24,6 @@ def menu_assign_asset():
   else:
     menu_assign_asset()
 
-def assing_zone(assets, zones, person):
-  asset = search_asset(assets)
-  ubicacion = input("Donde se encuentra el dispositivo?").capitalize()
-  if (asset or ubicacion) == "":
-    input("Por aquí")
-    pass
-  else:      
-    for zone in zones.values():
-      if asset["CodCampus"] in zone["assets"] and zone["nameZone"] != ubicacion:
-        zone["assets"].remove(asset["CodCampus"])
-        print("Por aqui")
-        pause_screen()
-
-      if zone["nameZone"] == ubicacion and zone['capacidad'] < len(zone['assets']): 
-        if asset not in zone["assets"] and asset['Nombre'] not in person['assets']:
-          zone["assets"].append(asset["CodCampus"])
-          person["assets"].append(asset["CodCampus"])
-          asset["Estado"] = 1
-          asset["Ubicacion"] = zone["nameZone"]
-          update_json("zones.json", zones)
-          update_json("assets.json", assets)
-          update_json("assets.json", assets)
-          print(f"Se ha asignado {asset['Nombre']} a {zone['nameZone']} y a {person['name']}")
-          print(person)
-          pause_screen()
-          break
-        elif asset not in zone["assets"] and asset["Nombre"] in person["assets"]:
-          zone["assets"].append(asset["CodCampus"])
-          asset["Estado"] = 1
-          asset["Ubicacion"] = zone["nameZone"]
-          update_json("zones.json", zones)
-          update_json("assets.json", assets)
-          print(f"Se ha asignado {asset['Nombre']} a {zone['nameZone']}, ya se encontraba en {person['name']}")
-          pause_screen()
-          break
-        #else:
-          print("Ese asset ya se encuentra en esa zona")
-          pause_screen()
-          break
-      elif zone['capacidad'] == len(zone['assets']):
-        print("Se ha excedido en la cantidad de activos para esta zona")
-        pause_screen()
-        break
-
 def assing(assets, zones):
   personal = check_json("data/personal.json", {})
   person = input("Ingrese la persona a asignar: ")
@@ -77,9 +32,53 @@ def assing(assets, zones):
   for value in personal.values():
     if value["name"] == person:
       searched_person = value
-  print(searched_person)
-  pause_screen()
-  assing_zone(assets, zones, searched_person)
+  asset = search_asset(assets)
+  ubicacion = input("Donde se encuentra el dispositivo?").capitalize()
+  for p in personal.values():
+    if asset["CodCampus"] in p["assets"] and p["name"] != searched_person["name"]:
+      p["assets"].remove(asset["CodCampus"])
+      print(p)
+  for zone in zones.values():
+    if asset["CodCampus"] in zone["assets"] and zone["nameZone"] != ubicacion:
+      zone["assets"].remove(asset["CodCampus"])
+    if zone["nameZone"] == ubicacion and zone['capacidad'] > len(zone['assets']):
+      if zone['capacidad'] <= len(zone['assets']):
+        print("La zona no tiene capacidad suficiente")
+        pause_screen()
+        break
+      print("Entra al segundo if")
+      pause_screen()
+      if asset not in zone["assets"] and asset['Nombre'] not in searched_person['assets']:
+        zone["assets"].append(asset["CodCampus"])
+        searched_person["assets"].append(asset["CodCampus"])
+        asset["Estado"] = "1"
+        asset["Ubicacion"] = zone["nameZone"]
+        update_json("zones.json", zones)
+        update_json("assets.json", assets)
+        update_json("personal.json", personal)
+        print(f"Se ha asignado {asset['Nombre']} a {zone['nameZone']} y a {searched_person['name']}")
+        print(person)
+        pause_screen()
+      elif asset not in zone["assets"] and asset["Nombre"] in searched_person["assets"]:
+        zone["assets"].append(asset["CodCampus"])
+        asset["Estado"] = 1
+        asset["Ubicacion"] = zone["nameZone"]
+        update_json("zones.json", zones)
+        update_json("assets.json", assets)
+        print(f"Se ha asignado {asset['Nombre']} a {zone['nameZone']}, ya se encontraba en {searched_person['name']}")
+        pause_screen()
+      else:
+        print("Ese asset ya se encuentra en esa zona")
+        pause_screen()
+        break
+    create_assings_json(zones)
+
+def create_assings_json(zones):
+  data = {}
+  for zone in zones.values():
+    data.update(**data, {zone["nameZone"]: zone["assets"]})
+  with open("data/zones_assing.json", "w+") as file:
+    json.dump(data, file, indent=2)
 
 def search_assing(zones):
   ubicacion = input("Ingrese el nombre de la zona a buscar: ").capitalize()

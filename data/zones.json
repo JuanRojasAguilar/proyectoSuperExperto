@@ -3,13 +3,21 @@
     "number": "1",
     "nameZone": "Sputnik",
     "capacidad": 40,
-    "assets": []
+    "assets": [
+      "TE000",
+      "TE000",
+      "TE001"
+    ]
   },
   "2": {
     "number": "2",
     "nameZone": "Houston",
     "capacidad": 12,
     "assets": [
+      "MO000",
+      "TE000",
+      "MO000",
+      "CPU000"
     ]
   }
 }
