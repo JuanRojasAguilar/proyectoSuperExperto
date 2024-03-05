@@ -18,12 +18,14 @@ def menu_assign_asset():
     try:
       assing(data_assets,data_zones)
     except:
-      pass
+      input("Dato ingresado no válido")
+      menu_assign_asset()
   elif option == "2":
     try:
       search_assing(data_zones)
     except:
-      pass
+      input("Dato ingresado no válido")
+      menu_assign_asset()
   elif option == "3":
     pass
   else:
