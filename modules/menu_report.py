@@ -1,7 +1,7 @@
 
 import modules.corefiles as cf
 import data as d
-import sys
+from tabulate import tabulate
 
 def menu_report():
   title = """
@@ -31,3 +31,29 @@ def menu_report():
     pass
   else:
     menu_report()
+
+#lista todos los activos
+def list_Assets():
+  cf.clear_screen()
+  list=[]
+  data = cf.check_json("data/assets.json", {})
+  for i in data:
+    code=i
+
+    tipe=data[i]["tipo"]
+    name=data[i]["Nombre"]
+    num_serial=data[i]["NroSerial"]
+    sublist=[code,name,tipe,num_serial]
+    list.append(sublist)
+  if list:
+    pages=30
+    all_page=(len(list)-1)//pages+1
+    for idx in range(all_page):
+      sub_data=list[idx*pages:(idx+1)*pages]
+      print(tabulate(sub_data, headers=["CODIGO","NOMBRE","TIPO","No.SERIAL"],tablefmt="fancy_grid"))
+      print(f'Pagina {idx+1} de {all_page}')
+      op =input('si desea volver presione (1)')
+      if op == "1":
+        break
+  else:
+    print('aun no hay archivos')      
