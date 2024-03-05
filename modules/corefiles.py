@@ -3,8 +3,6 @@ import sys
 import json
 from tabulate import tabulate
 
-
-
 # Este es el layout de los menús, imprime el titulo y el menu
 def menus_layout(title:str,menu:list):
   print(title)
@@ -37,36 +35,6 @@ def update_json(archivo, data):
   with open("data/"+archivo, "w+") as file:
     json.dump(data, file, indent=2, ensure_ascii=False)
 
-#crea un archivo json de activos
-assets={}
-def json_assets(assets):
-    with open('data/assets.json',"w") as ac:
-        json.dump(assets,ac, indent=4)
-#lista todos los activos
-def list_Assets():
-  clear_screen()
-  list=[]
-  data = check_json("data/assets.json", {})
-  for i in data:
-    code=i
-    
-    tipe=data[i]["tipo"]
-    name=data[i]["Nombre"]
-    num_serial=data[i]["NroSerial"]
-    sublist=[code,name,tipe,num_serial]
-    list.append(sublist)
-  if list:
-    pages=30
-    all_page=(len(list)-1)//pages+1
-    for idx in range(all_page):
-      sub_data=list[idx*pages:(idx+1)*pages]
-      print(tabulate(sub_data, headers=["CODIGO","NOMBRE","TIPO","No.SERIAL"],tablefmt="fancy_grid"))
-      print(f'Pagina {idx+1} de {all_page}')
-      op =input('si desea volver presione (1)')
-      if op == "1":
-        break
-  else:
-    print('aun no hay archivos')      
 #lista los activos por categoria
 def list_Category():
   data=check_json("data/assets.json", {})

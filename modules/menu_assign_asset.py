@@ -37,22 +37,28 @@ def assing(assets, zones):
   for value in personal.values():
     if value["name"] == person:
       searched_person = value
+  # Se busca y retorna tanto la persona como el asset con el que vamos a necesitar
   asset = search_asset(assets)
   ubicacion = input("Donde se encuentra el dispositivo?").capitalize()
   for p in personal.values():
+    # Valida si el objeto se encuentra en otra persona, de ser así lo retira
     if asset["CodCampus"] in p["assets"] and p["name"] != searched_person["name"]:
       p["assets"].remove(asset["CodCampus"])
       print(p)
+
+  # iteramos en las zonas y validamos si existe en la zona o en otra zona y se hace una asignacion correspondiente, también se actualizan los json para trabajar con info actualizada entre modulos
   for zone in zones.values():
     if asset["CodCampus"] in zone["assets"] and zone["nameZone"] != ubicacion:
       zone["assets"].remove(asset["CodCampus"])
-    if zone["nameZone"] == ubicacion and zone['capacidad'] > len(zone['assets']):
-      if zone['capacidad'] <= len(zone['assets']):
-        print("La zona no tiene capacidad suficiente")
-        pause_screen()
-        break
-      print("Entra al segundo if")
+    #Revisa si la zona tiene capacidad suficiente
+    if zone['capacidad'] <= len(zone['assets']):
+      print("La zona no tiene capacidad suficiente")
       pause_screen()
+      break
+    pause_screen()
+    # Revisa si existe el asset en las personas y ubicaciones
+    if zone["nameZone"] == ubicacion and zone['capacidad'] > len(zone['assets']):
+      # Si no esta en la zona y la persona no tiene el asset
       if asset not in zone["assets"] and asset['Nombre'] not in searched_person['assets']:
         zone["assets"].append(asset["CodCampus"])
         searched_person["assets"].append(asset["CodCampus"])
@@ -63,8 +69,8 @@ def assing(assets, zones):
         update_json("personal.json", personal)
         mov_json(asset["Nombre"],zone["nameZone"])
         print(f"Se ha asignado {asset['Nombre']} a {zone['nameZone']} y a {searched_person['name']}")
-        print(person)
         pause_screen()
+      # Si el asset no esta en la zona pero ya la persona lo tenía
       elif asset not in zone["assets"] and asset["Nombre"] in searched_person["assets"]:
         zone["assets"].append(asset["CodCampus"])
         asset["Estado"] = "1"
@@ -74,6 +80,7 @@ def assing(assets, zones):
         mov_json(asset["Nombre"],zone["nameZone"])
         print(f"Se ha asignado {asset['Nombre']} a {zone['nameZone']}, ya se encontraba en {searched_person['name']}")
         pause_screen()
+      # Si el asset estaba en la zona y la persona no lo tenía
       else:
         searched_person["assets"].append(asset["CodCampus"])
         asset["Estado"] = "1"
@@ -85,6 +92,7 @@ def assing(assets, zones):
         break
     create_assings_json(zones)
 
+#Genera el json de los asignamientos
 def create_assings_json(zones):
   data = {}
   for zone in zones.values():
@@ -92,12 +100,14 @@ def create_assings_json(zones):
   with open("data/zones_assing.json", "w+") as file:
     json.dump(data, file, indent=2)
 
+#Genera el json de los movimientos
 def mov_json(asset, zone):
   data = {}
   data.update({asset:zone})
   with open("data/movements.json", "w+") as file:
     json.dump(data, file, indent=2)
 
+#Lista las asignaciones
 def search_assing(zones):
   ubicacion = input("Ingrese el nombre de la zona a buscar: ").capitalize()
   for zone in zones.values():

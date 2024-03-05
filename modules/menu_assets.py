@@ -56,6 +56,7 @@ def read_productos_csv():
         }
         
         clean_dict.update({item[10]: dicc})
+    # Necesario para quitar el header de los productos del excel
     clean_dict.pop("codebar")
     return clean_dict
 
@@ -67,11 +68,13 @@ def search_asset(data):
     input("No hay un producto con ese nombre")
     return {}
 
+#funcion encanrgada de imprimir los resultados de search_asset de manera ordenada
 def show_search_result(data):
   res = search_asset(data)
   print(tabulate([res], headers="keys", tablefmt="grid"))
   input("\nPresione ENTER para volver...")
 
+#Itera por todas las llaves y pregunta cuales va a cambiar
 def update(data):
   asset = search_asset(data)
   for key, value in list(asset.items())[5::]:
@@ -80,6 +83,7 @@ def update(data):
   print(asset)
   update_json("assets.json", data)
 
+# Añade la info agregada a un nuevo producto
 def add_asset(data):
   name = input("Ingrese el nombre del producto: ")
   codTrans = input("Ingrese el codigo de transaccion del producto: ")
@@ -90,6 +94,8 @@ def add_asset(data):
   tipo = ""
   codCampus = ""
   categoria = input("Qué tipo de dispositivo es? ")
+
+  # Funcion que lee cuántos productos hay por tipo
   def counter(data, query):
     counterCount = 0
     for key in data.keys():
@@ -97,6 +103,7 @@ def add_asset(data):
         counterCount += 1
     return counterCount
 
+  # Genera de manera automatica el codebar del producto, el accumulated se corrige automaticamente para evitar conflictos de llaves repetidas
   if "CPU" in name.upper():
     accumulated = str(counter(data,"CPU")).zfill(3)
     tipo = "CPU"
